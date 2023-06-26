@@ -31,7 +31,7 @@
   is an attack against applications that have been built on top of AI models. It allows the hacker
   to get the model to say anything that they want.
 * [Context Window](https://blendingbits.io/p/llm-engineering-context-windows) or `Context Size`
-  is the range of tokens the model can consider when generating responses to prompts. The sum of
+  is the number of tokens the model can consider when generating responses to prompts. The sum of
   input prompt and generated response must be smaller in size than the context window. Otherwise,
   the language model breaks down and starts generating nonsense. Context window is one the the
   biggest limitations of LLMs. 
