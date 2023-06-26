@@ -48,7 +48,8 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 ## Prompting Techniques
 
 * `Summarization` is a set of prompting techniques that create a shorter version of a document
-  that captures all the important information.
+  that captures all the important information. Summarization is considered to be a solution
+  to the context window problem.
    - [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
    - [Mastering ChatGPT: Effective Summarization with
      LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
