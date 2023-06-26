@@ -1,5 +1,5 @@
 # llm-stuff
-> Useful links to LLM-related stuff
+> LLM-related definitions and links to stuff
 
 For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 
