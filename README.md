@@ -114,4 +114,3 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 
 * [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM#open-llm)
 * [Awesome-Langchain](https://github.com/kyrolabs/awesome-langchain)
-* [LLM Concepts in Langchain Docs](https://github.com/hwchase17/langchain/blob/94c82a189d30a53a2f7e34a9dd99eeb174f45d3d/docs/getting_started/concepts.md)
