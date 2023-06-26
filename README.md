@@ -36,21 +36,17 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
   is the number of tokens the model can consider when generating responses to prompts. The sum of
   input prompt and generated response must be smaller in size than the context window. Otherwise,
   the language model breaks down and starts generating nonsense. Context window is one the the
-  biggest limitations of LLMs. 
+  biggest limitations of LLMs.
 * [Vector Database](https://en.wikipedia.org/wiki/Vector_database) is a type of specialized
   database designed to handle vector embeddings. These embeddings are a form of data
   representation that conveys crucial semantic information. Vector databases store data
   as high-dimensional vectors, representing features or attributes in a mathematical form.
   These vectors are typically created through embedding functions in LLMs. Vector databases
-  are typically used as a long-term memory for AI applications that use LLMs and can be a
-  solution for the context window problem.
+  are typically used as a long-term memory for AI applications and are considered
+  a solution to the context window problem.
+* Summarisation.
 
-## Guides
-* [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
-* [promptingguide.ai](https://www.promptingguide.ai/)
-* [learnprompting.org](https://learnprompting.org/)
-
-## LLM Techniques
+## Prompting Techniques
 
 * `Chain of Thought (CoT)` is a prompting technique used to encourage the model to generate
   a series of intermediate reasoning steps. A less formal way to induce this behavior is
@@ -89,6 +85,14 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 * `MemPrompt` maintains a memory of errors and user feedback, and uses them to prevent
   repetition of mistakes.
    - [Paper](https://memprompt.com/)
+
+## Guides
+* [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
+  to writing AI applications.
+* [promptingguide.ai/techniques](https://www.promptingguide.ai/techniques) - More on
+  prompting techniques.
+* [learnprompting.org/docs/prompt_hacking/intro](https://learnprompting.org/docs/prompt_hacking/intro) -
+  More on prompt hacking.
 
 ## Sources
 
