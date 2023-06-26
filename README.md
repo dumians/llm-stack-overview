@@ -8,7 +8,7 @@
   parameters (billions or even trillions in Jun '23), trained on large quantities of
   unlabeled text using self-supervised learning or semi-supervised learning. LLMs
   emerged around 2018 and perform well at a wide variety of tasks (including document
-  generation, question answering, chat assistance and instruction following).
+  generation, question answering and instruction following).
 * [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
   is a way to construct deep learning models, using the revolutionary self-attention mechanism.
   The model processes all tokens while simultaneously calculating attention weights between them.
@@ -21,11 +21,6 @@
   that can be processed by the LLM AI models. Tokens can be words, characters, subwords, or symbols,
   depending on the type and the size of the model. The number of tokens each model uses varies
   among different LLMs and is referred to as vocabulary size.
-* [Vector Database](https://en.wikipedia.org/wiki/Vector_database) is a type of specialized
-  database designed to handle vector embeddings. These embeddings are a form of data
-  representation that conveys crucial semantic information. Vector databases store data
-  as high-dimensional vectors, representing features or attributes in a mathematical form.
-  These vectors are typically created through embedding functions in LLMs.
 * [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) is a trial-and-error
   process in which LLM input prompt is created and improved with a goal of invoking the desired
   LLM behaviour. Researchers use prompt engineering to improve the capacity of LLMs ona wide
@@ -34,7 +29,19 @@
   interface with LLMs and other tools.
 * [Prompt Injection](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
   is an attack against applications that have been built on top of AI models. It allows the hacker
-  to get the model to say anything that they want. 
+  to get the model to say anything that they want.
+* [Context Window](https://blendingbits.io/p/llm-engineering-context-windows) or `Context Size`
+  is the range of tokens the model can consider when generating responses to prompts. The sum of
+  input prompt and generated response must be smaller in size than the context window. Otherwise,
+  the language model breaks down and starts generating nonsense. Context window is one the the
+  biggest limitations of LLMs. 
+* [Vector Database](https://en.wikipedia.org/wiki/Vector_database) is a type of specialized
+  database designed to handle vector embeddings. These embeddings are a form of data
+  representation that conveys crucial semantic information. Vector databases store data
+  as high-dimensional vectors, representing features or attributes in a mathematical form.
+  These vectors are typically created through embedding functions in LLMs. Vector databases
+  are typically used as a long-term memory for AI applications that use LLMs and can be a
+  solution for the context window problem.
 
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
