@@ -51,6 +51,7 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
   These vectors are typically created through embedding functions in LLMs. Vector databases
   are typically used as a long-term memory for AI applications and are considered
   a solution to the context window problem.
+* TODO: Emergent abilities.
 
 ## Prompting Techniques
 
@@ -108,6 +109,7 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 * `MemPrompt` maintains a memory of errors and user feedback, and uses them to prevent
   repetition of mistakes.
    - [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
+* TODO: Three of Thought
 
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
