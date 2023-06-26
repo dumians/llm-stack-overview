@@ -61,6 +61,14 @@
 * [sockjs-node](https://github.com/sockjs/sockjs-node)
 * [sockjs-client](https://github.com/sockjs/sockjs-client)
 
+### AutoGPTs
+
+* [auto-gpt](https://github.com/Significant-Gravitas/Auto-GPT) - General-purpose autonomous
+  LLM agent with optional access to internet resources. Implements integrations with many
+  language models and vector databases. The original implementation of the autonomous GPT idea.
+* [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) - Designs and implements a simple
+  program based on provided description and clarifications.
+
 ## LLM Techniques
 
 * `Chain of Thought (CoT)` is a prompting technique used to encourage the model to generate
