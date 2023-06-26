@@ -21,21 +21,25 @@
   that can be processed by the LLM AI models. Tokens can be words, characters, subwords, or symbols,
   depending on the type and the size of the model. The number of tokens each model uses varies
   among different LLMs and is referred to as vocabulary size.
+* [Vector Database](https://en.wikipedia.org/wiki/Vector_database) is a type of specialized
+  database designed to handle vector embeddings. These embeddings are a form of data
+  representation that conveys crucial semantic information. Vector databases store data
+  as high-dimensional vectors, representing features or attributes in a mathematical form.
+  These vectors are typically created through embedding functions in LLMs.
 * [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) is a trial-and-error
   process in which LLM input prompt is created and improved with a goal of invoking the desired
   LLM behaviour. Researchers use prompt engineering to improve the capacity of LLMs ona wide
   range of common and complex tasks such as question answering and arithmetic reasoning.
   Developers use prompt engineering to design robust and effective prompting techniques that
   interface with LLMs and other tools.
-* [Vector Database](https://en.wikipedia.org/wiki/Vector_database) is a type of specialized
-  database designed to handle vector embeddings. These embeddings are a form of data
-  representation that conveys crucial semantic information. Vector databases store data
-  as high-dimensional vectors, representing features or attributes in a mathematical form.
-  These vectors are typically created through embedding functions in LLMs.
+* [Prompt Injection](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
+  is an attack against applications that have been built on top of AI models. It allows the hacker
+  to get the model to say anything that they want. 
 
 ## Guides
-* [promptingguide.ai](https://www.promptingguide.ai/)
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
+* [promptingguide.ai](https://www.promptingguide.ai/)
+* [learnprompting.org](https://learnprompting.org/)
 
 ## Software
 
