@@ -30,3 +30,4 @@
 ## Sources
 
 * [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM#open-llm)
+* [Awesome-Langchain](https://github.com/kyrolabs/awesome-langchain)
