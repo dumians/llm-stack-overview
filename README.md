@@ -44,10 +44,14 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
   These vectors are typically created through embedding functions in LLMs. Vector databases
   are typically used as a long-term memory for AI applications and are considered
   a solution to the context window problem.
-* Summarisation.
 
 ## Prompting Techniques
 
+* `Summarization` is a set of prompting techniques that create a shorter version of a document
+  that captures all the important information.
+   - [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
+   - [Mastering ChatGPT: Effective Summarization with
+     LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
 * `Chain of Thought (CoT)` is a prompting technique used to encourage the model to generate
   a series of intermediate reasoning steps. A less formal way to induce this behavior is
   to include “Let’s think step-by-step” in the prompt.
