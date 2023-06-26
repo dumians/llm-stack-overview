@@ -37,6 +37,8 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
   input prompt and generated response must be smaller in size than the context window. Otherwise,
   the language model breaks down and starts generating nonsense. Context window is one the the
   biggest limitations of LLMs.
+   - [The Secret Sauce behind 100K context window in LLMs: all tricks in one
+     place](https://blog.gopenai.com/how-to-speed-up-llms-and-use-100k-context-window-all-tricks-in-one-place-ffd40577b4c)
 * [Vector Database](https://en.wikipedia.org/wiki/Vector_database) is a type of specialized
   database designed to handle vector embeddings. These embeddings are a form of data
   representation that conveys crucial semantic information. Vector databases store data
