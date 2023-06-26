@@ -8,9 +8,12 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 * [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) (LLM) is
   a computerized language model consisting of an artificial neural network with many
   parameters (billions or even trillions in Jun '23), trained on large quantities of
-  unlabeled text using self-supervised learning or semi-supervised learning. LLMs
-  emerged around 2018 and perform well at a wide variety of tasks (including document
-  generation, question answering and instruction following).
+  unlabeled text using self-supervised learning or semi-supervised learning. Though
+  trained on a simple task along the lines of predicting the next word in a sentence,
+  neural language models with sufficient training and high parameter counts are found
+  to capture much of the syntax and semantics of human language. LLMs emerged around
+  2018 and perform well at a wide variety of tasks (including document generation,
+  question answering, instruction following, and chat).
 * [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
   is a way to construct deep learning models, using the revolutionary self-attention mechanism.
   The model processes all tokens while simultaneously calculating attention weights between them.
