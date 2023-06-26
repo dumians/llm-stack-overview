@@ -1,7 +1,9 @@
 # llm-stuff
 > Useful links to LLM-related stuff
 
-## Notable Language Models
+## Software
+
+### Language Models
 
 * **LLaMa (Meta)** `open source`
    - [LLaMa weights download](https://github.com/shawwn/llama-dl)
@@ -12,10 +14,15 @@
    - [OpenAI API](https://platform.openai.com/docs/api-reference)
    - [OpenAI Node API](https://www.npmjs.com/package/openai)
 
-## Vector DBs
+### Vector DBs
 * [pinecone](https://www.pinecone.io/) `commercial` `saas`
 * [milvus](https://github.com/milvus-io/milvus) `open source` `heavyweight`
 * [qdrant](https://github.com/qdrant/qdrant) `open source` `🌟`
+
+### Libraries / Frameworks
+
+* [langchain](https://github.com/hwchase17/langchain)
+* [langchainjs](https://github.com/hwchase17/langchainjs)
 
 ## Concepts
 
