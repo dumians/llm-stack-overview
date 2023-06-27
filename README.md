@@ -8,25 +8,46 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 ### ⇨ Large Language Model
 
 Large Language Model (LLM) is an artificial neural network trained on large quantities of
-unlabeled text using self-supervised learning or semi-supervised learning. Neural networks
-in LLMs are deep (have multiple layers of perceptrons) and have large number of parameters
-(connections between layers; hundreds of billions or even trillions as of June '23).
+unlabeled text using self-supervised learning or semi-supervised learning. LLMs use deep
+neural networks (with multiple layers of perceptrons) that have large number of parameters
+(connections between network layers; hundreds of billions or even trillions as of June '23).
 
-Though trained on a simple task along the lines of predicting the next word in a sentence,
-large language models with sufficient training and high parameter counts are found to
-capture:
+Even though LLMs are trained on a simple task along the lines of predicting the next word
+in a sentence, large language models with sufficient training and high parameter counts are
+found to capture:
 
 * much of the syntax and semantics of human language,
 * considerable general knowledge,
 * detailed specialist knowledge (law, medicine, engineering, etc),
 * great quantity of facts about the world.
 
-LLMs emerged around 2018 and perform well at a wide variety of tasks, including (but not
+Since 2018 LLMs perform suprisingly well at a wide variety of tasks, including (but not
 limited to) document generation, question answering, instruction following, brainstorming,
-and chat.
+and chat. Over the years, LLMs have been improved by orders of magnitude.
+
+In 2023, LLMs were able to:
+
+* Pass the Uniform Bar Exam exam (US national and state law) with a score in the 90th percentile,
+* Pass all three parts of the United States medical licensing examination within a comfortable range,
+* Pass Stanford Medical School final exam in clinical reasoning with an overall score of 72%,
+* Receive B- on the Wharton MBA exam,
+* Score in the 99th percentile on the 2020 Semifinal Exam of the USA Biology Olympiad,
+* Receive the highest score on the following Advanced Placement examinations for college-level
+  courses: Art History, Biology, Environmental Science, Macroeconomics, Microeconomics,
+  Psychology, Statistics, US Government and US History,
+* Pass the Scholastic Aptitude Test (SAT) with a score of 88%,
+* Pass the Introductory Sommelier, Certified Sommelier, and Advanced Sommelier exams
+  at respective rates of 92%, 86%, and 77%,
+* Pass the turing test (arguably).
 
 See also:
 * [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) on Wikipedia.
+* [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
+* [GPT-4 Passes the Bar Exam](https://law.stanford.edu/2023/04/19/gpt-4-passes-the-bar-exam-what-that-means-for-artificial-intelligence-tools-in-the-legal-industry/)
+  on Stanform Law Blog.
+* [Is GPT-4 Really Human-Like?](https://medium.com/@marco.murgia/is-gpt-4-really-human-like-43e8e2465217) -
+ an article about GPT-4 turing test by Marco Murgia.
+* [The exams Chat-GPT has passed so far (2023)](https://www.businessinsider.com/list-here-are-the-exams-chatgpt-has-passed-so-far-2023-1?IR=T) by Business Insider.
 
 ### ⇨ Transformer Architecture
 
@@ -43,8 +64,8 @@ See also:
 
 ### ⇨ Tokenization
 
-A token is a basic unit of text/code for an LLM to process or generate language. Tokens can
-be words, characters, subwords, or symbols, depending on the type and the size of the model.
+A token is a basic unit of text/code for used by LLM to process or generate language. Tokens
+can be words, characters, subwords, or symbols, depending on the type and the size of the model.
 The number of tokens each model uses varies among different LLMs and is referred to as
 vocabulary size. Tokens are used on both input and output of LLM neural networks.
 
