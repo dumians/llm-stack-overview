@@ -44,7 +44,7 @@ See also:
 * [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) on Wikipedia.
 * [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
 * [GPT-4 Passes the Bar Exam](https://law.stanford.edu/2023/04/19/gpt-4-passes-the-bar-exam-what-that-means-for-artificial-intelligence-tools-in-the-legal-industry/)
-  on Stanform Law Blog.
+  on Stanford Law Blog.
 * [Is GPT-4 Really Human-Like?](https://medium.com/@marco.murgia/is-gpt-4-really-human-like-43e8e2465217) -
  an article about GPT-4 turing test by Marco Murgia.
 * [The exams Chat-GPT has passed so far (2023)](https://www.businessinsider.com/list-here-are-the-exams-chatgpt-has-passed-so-far-2023-1?IR=T) by Business Insider.
