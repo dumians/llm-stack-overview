@@ -57,12 +57,13 @@ representation subspaces at different positions.
 The attention layer weighs all previous states according to a learned measure of relevance,
 providing relevant information about far-away tokens.
 
-The new architecture allowed for shorter training times when compared to older models and
+The new architecture allowed for shorter training times when compared to the older models and
 has led to the development of pretrained systems, such as the original Generative Pre-Trained
 Transformer (GPT) by OpenAI and Bidirectional Encoder Representations from Transformers (BERT)
 by Google, both in 2018.
 
-In 2023, transformer is still the state-of-the-art architecture for large language models.
+In 2023, transformer is still the state-of-the-art architecture for large language models
+that enables rapid advancement of the field.
 
 #### Further Reading
 * [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
@@ -102,23 +103,41 @@ compressible, thus requiring more tokens to encode.
 
 ### ⇨ Prompt Engineering
 
-Prompt engineering is a trial-and-error process in which LLM input prompt is created and
-optimised with a goal of invoking the desired LLM behaviour. Researchers use prompt
-engineering to improve the capacity of LLMs ona wide range of common and complex tasks such
-as question answering and arithmetic reasoning. Developers use prompt engineering to design
-robust and effective prompting techniques that interface with LLMs and other tools.
+Prompt engineering or in-context prompting is a trial-and-error process in which LLM input
+prompt is created and optimised with a goal of influencing the LLMs behaviour without
+changing weights of the neural network. The effect of prompt engineering methods can vary
+a lot among models, thus requiring heavy experimentation and heuristics.
+
+Prompt engineering use cases: 
+* LLM researchers use prompt engineering to improve the capacity of LLMs on a wide range
+  of common and complex tasks such as question answering and arithmetic reasoning.
+  Many basic prompting techniques (like "zero-shot" and "few-shot" prompting) were
+  introduced in LLM research papers.
+* Software developers create advanced prompting techniques that interface with LLMs
+  and other tools and enable writing robust AI applications.
+  The process of engineering prompts can be accelerated by using software libraries
+  that feature prompt templating and high-level abstractions over communication with LMMs.
+* It is theorised that in-context prompting will be a high demand skill as more
+  organizations adopt LLM AI models.
+  This can lead to prompt engineering being a profession in of its own.
+  A good prompt engineer will have the ability to help organizations get the most out
+  of their LLMs by designing prompts that produce the results optimised in context of
+  the specific organisation.
 
 #### Further Reading
-* [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) on Wikipedia.
+* [Prompt Engineering Overview](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/)
+  on Microsoft Semantic Kernel.
 
 ### ⇨ Prompt Injection
 
 Prompt injection is an attack against applications that have been built on top of AI models.
 It allows the hacker to get the model to say anything that they want.
 
-Further reading:
+#### Further reading
 * [Prompt Injection Explained](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
   by Simon Willison.
+* [learnprompting.org/docs/prompt_hacking/intro](https://learnprompting.org/docs/prompt_hacking/intro) -
+  More on prompt hacking.
 
 ### ⇨ Context Window
 
@@ -154,12 +173,17 @@ TODO
 
 ## Prompting Techniques
 
+* `Act-As` TODO
 * `Summarization` is a set of prompting techniques that create a shorter version of a document
   that captures all the important information. Summarization is considered to be a solution
   to the context window problem.
    - [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
    - [Mastering ChatGPT: Effective Summarization with
      LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
+* `Few-Shot` TODO
+   - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+* `Zero-Shot` TODO
+   - [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf)
 * `Chain of Thought (CoT)` is a prompting technique used to encourage the model to generate
   a series of intermediate reasoning steps. A less formal way to induce this behavior is
   to include “Let’s think step-by-step” in the prompt.
@@ -210,13 +234,12 @@ TODO
    - [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
 * TODO: Three of Thought
 
+* [promptingguide.ai](https://www.promptingguide.ai/)
+* [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - article by Lilian Weng.
+
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
   to writing AI applications.
-* [promptingguide.ai/techniques](https://www.promptingguide.ai/techniques) - More on
-  prompting techniques.
-* [learnprompting.org/docs/prompt_hacking/intro](https://learnprompting.org/docs/prompt_hacking/intro) -
-  More on prompt hacking.
 
 ## Sources
 
