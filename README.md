@@ -5,7 +5,7 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 
 ## Key Concepts
 
-### Large Language Model
+### ⇨ Large Language Model
 
 Large Language Model (LLM) is an artificial neural network trained on large quantities of
 unlabeled text using self-supervised learning or semi-supervised learning. Neural networks
@@ -13,7 +13,7 @@ in LLMs are deep (have multiple layers of perceptrons) and have large number of 
 (connections between layers; hundreds of billions or even trillions as of June '23).
 
 Though trained on a simple task along the lines of predicting the next word in a sentence,
-neural language models with sufficient training and high parameter counts are found to
+large language models with sufficient training and high parameter counts are found to
 capture:
 
 * much of the syntax and semantics of human language,
@@ -25,10 +25,10 @@ LLMs emerged around 2018 and perform well at a wide variety of tasks, including 
 limited to) document generation, question answering, instruction following, brainstorming,
 and chat.
 
-> See also:
-> * [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) on Wikipedia.
+See also:
+* [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) on Wikipedia.
 
-### Transformer Architecture
+### ⇨ Transformer Architecture
 
 Transformer is a way to construct deep learning models, using the revolutionary
 self-attention mechanism. The model processes all tokens while simultaneously calculating
@@ -41,7 +41,7 @@ See also:
 * [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
   whitepaper describing the transformer architecture.
 
-### LLM Token
+### ⇨ LLM Token
 
 Token is a basic units of text/code for LLM AI models to process or generate language
 (basic I/O data type). Tokenization is the process of splitting the input and output
@@ -54,7 +54,7 @@ See also:
 * [What are Tokens?](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens)
   on Microsoft Semantic Kernel.
 
-### Prompt Engineering
+### ⇨ Prompt Engineering
 
 Prompt engineering is a trial-and-error process in which LLM input prompt is created and
 optimised with a goal of invoking the desired LLM behaviour. Researchers use prompt
@@ -65,7 +65,7 @@ robust and effective prompting techniques that interface with LLMs and other too
 See also:
 * [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) on Wikipedia.
 
-### Prompt Injection
+### ⇨ Prompt Injection
 
 Prompt injection is an attack against applications that have been built on top of AI models.
 It allows the hacker to get the model to say anything that they want.
@@ -74,7 +74,7 @@ See also:
 * [Prompt Injection Explained](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
   by Simon Willison.
 
-### Context Window
+### ⇨ Context Window
 
 Context window (or context size) is the number of tokens the model can consider when
 generating responses to prompts. The sum of input prompt and generated response must be
@@ -90,7 +90,7 @@ See also:
 * [Extending Context is Hard…but not Impossible†](https://kaiokendev.github.io/context) -
   article on kaiokendev.github.io.
 
-### Vector Database
+### ⇨ Vector Database
 
 Vector database is a type of specialized database designed to handle vector embeddings.
 These embeddings are a form of data representation that conveys crucial semantic
@@ -102,7 +102,7 @@ applications and are considered a solution to the context window problem.
 See also:
 * [Vector Database](https://en.wikipedia.org/wiki/Vector_database) on Wikipedia.
  
-### Emergent Abilities
+### ⇨ Emergent Abilities
 
 TODO
 
