@@ -9,9 +9,8 @@ For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 
 Large Language Model (LLM) is an artificial neural network trained on large quantities of
 unlabeled text using self-supervised learning or semi-supervised learning. Neural networks
-in LLMs are deep (have multiple layers of perceptrons) and have large number of connections
-between layers (refered to. as parameters) (hundreds of billions or even trillions as of
-June '23).
+in LLMs are deep (have multiple layers of perceptrons) and have large number of parameters
+(connections between layers; hundreds of billions or even trillions as of June '23).
 
 Though trained on a simple task along the lines of predicting the next word in a sentence,
 neural language models with sufficient training and high parameter counts are found to
