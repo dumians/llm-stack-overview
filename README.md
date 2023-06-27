@@ -40,7 +40,7 @@ In 2023, LLMs were able to:
   at respective rates of 92%, 86%, and 77%,
 * Pass the turing test (arguably).
 
-See also:
+#### Further Reading 
 * [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) on Wikipedia.
 * [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
 * [GPT-4 Passes the Bar Exam](https://law.stanford.edu/2023/04/19/gpt-4-passes-the-bar-exam-what-that-means-for-artificial-intelligence-tools-in-the-legal-industry/)
@@ -56,7 +56,7 @@ self-attention mechanism. The model processes all tokens while simultaneously ca
 attention weights between them. This enables the LLM to have access to all previous tokens
 when generating langauge.
 
-See also:
+#### Further Reading
 * [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
   on Wikipedia.
 * [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
@@ -85,7 +85,7 @@ The OpenAI GPT series uses a tokenizer where 1 token maps to around 4 characters
 0.75 words, in common English text. Uncommon English text is less predictable, thus less
 compressible, thus requiring more tokens to encode.
 
-See also:
+#### Further Reading
 * [What are Tokens?](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens)
   on Microsoft Semantic Kernel.
 
@@ -97,7 +97,7 @@ engineering to improve the capacity of LLMs ona wide range of common and complex
 as question answering and arithmetic reasoning. Developers use prompt engineering to design
 robust and effective prompting techniques that interface with LLMs and other tools.
 
-See also:
+#### Further Reading
 * [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) on Wikipedia.
 
 ### ⇨ Prompt Injection
@@ -105,7 +105,7 @@ See also:
 Prompt injection is an attack against applications that have been built on top of AI models.
 It allows the hacker to get the model to say anything that they want.
 
-See also:
+Further reading:
 * [Prompt Injection Explained](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
   by Simon Willison.
 
@@ -116,7 +116,7 @@ generating responses to prompts. The sum of input prompt and generated response 
 smaller in size than the context window. Otherwise, the language model breaks down and
 starts generating nonsense. Context window is one the the biggest limitations of LLMs.
 
-See also:
+#### Further Reading
 * [LMM Engineering Context Windows](https://blendingbits.io/p/llm-engineering-context-windows) -
   article on blendingbits.io.
 * [The Secret Sauce behind 100K context window in LLMs: all tricks in one
@@ -134,7 +134,7 @@ or attributes in a mathematical form. These vectors are typically created throug
 functions in LLMs. Vector databases are typically used as a long-term memory for AI
 applications and are considered a solution to the context window problem.
 
-See also:
+#### Further Reading
 * [Vector Database](https://en.wikipedia.org/wiki/Vector_database) on Wikipedia.
  
 ### ⇨ Emergent Abilities
