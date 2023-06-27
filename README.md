@@ -42,12 +42,36 @@ In 2023, LLMs were able to:
 
 #### Further Reading 
 * [Large Langauge Model](https://en.wikipedia.org/wiki/Large_language_model) on Wikipedia.
-* [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
 * [GPT-4 Passes the Bar Exam](https://law.stanford.edu/2023/04/19/gpt-4-passes-the-bar-exam-what-that-means-for-artificial-intelligence-tools-in-the-legal-industry/)
   on Stanford Law Blog.
 * [Is GPT-4 Really Human-Like?](https://medium.com/@marco.murgia/is-gpt-4-really-human-like-43e8e2465217) -
  an article about GPT-4 turing test by Marco Murgia.
 * [The exams Chat-GPT has passed so far (2023)](https://www.businessinsider.com/list-here-are-the-exams-chatgpt-has-passed-so-far-2023-1?IR=T) by Business Insider.
+
+### ⇨ Transformer Architecture
+
+Transformer is a revolutionary way to construct LLMs, using the multi-head self-attention
+mechanism introduced in "Attention Is All You Need" whitepaper (2017).
+The attention mechanism allows the model to jointly attend to information from different
+representation subspaces at different positions.
+The attention layer weighs all previous states according to a learned measure of relevance,
+providing relevant information about far-away tokens.
+
+The new architecture allowed for shorter training times when compared to older models and
+has led to the development of pretrained systems, such as the original Generative Pre-Trained
+Transformer (GPT) by OpenAI and Bidirectional Encoder Representations from Transformers (BERT)
+by Google, both in 2018.
+
+In 2023, transformer is still state-of-the-art architecture for large language models.
+
+#### Further Reading
+* [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
+  whitepaper describing the transformer architecture.
+* [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+  on Wikipedia.
+* [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
+* [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
+* [BERT (language model)](https://en.wikipedia.org/wiki/BERT_(language_model)) on Wikipedia.
 
 ### ⇨ Tokenization
 
@@ -75,20 +99,6 @@ compressible, thus requiring more tokens to encode.
 #### Further Reading
 * [What are Tokens?](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens)
   on Microsoft Semantic Kernel.
-
-### ⇨ Transformer Architecture
-
-Transformer is a way to construct deep learning models, using the revolutionary
-self-attention mechanism. The model processes all tokens while simultaneously calculating
-attention weights between them. This enables the LLM to have access to all previous tokens
-when generating langauge.
-
-#### Further Reading
-* [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
-  whitepaper describing the transformer architecture.
-* [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
-  on Wikipedia.
-* [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
 
 ### ⇨ Prompt Engineering
 
