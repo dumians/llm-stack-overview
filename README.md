@@ -48,32 +48,6 @@ In 2023, LLMs were able to:
  an article about GPT-4 turing test by Marco Murgia.
 * [The exams Chat-GPT has passed so far (2023)](https://www.businessinsider.com/list-here-are-the-exams-chatgpt-has-passed-so-far-2023-1?IR=T) by Business Insider.
 
-### ⇨ Transformer Architecture
-
-Transformer is a revolutionary way to construct LLMs, using the multi-head self-attention
-mechanism introduced in "Attention Is All You Need" whitepaper (2017).
-The attention mechanism allows the model to jointly attend to information from different
-representation subspaces at different positions.
-The attention layer weighs all previous states according to a learned measure of relevance,
-providing relevant information about far-away tokens.
-
-The new architecture allowed for shorter training times when compared to the older models and
-has led to the development of pretrained systems, such as the original Generative Pre-Trained
-Transformer (GPT) by OpenAI and Bidirectional Encoder Representations from Transformers (BERT)
-by Google, both in 2018.
-
-In 2023, transformer is still the state-of-the-art architecture for large language models
-that enables rapid advancement of the field.
-
-#### Further Reading
-* [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
-  whitepaper describing the transformer architecture.
-* [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
-  on Wikipedia.
-* [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
-* [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
-* [BERT (language model)](https://en.wikipedia.org/wiki/BERT_(language_model)) on Wikipedia.
-
 ### ⇨ Tokenization
 
 A token is a basic unit of text/code for used by LLM to process or generate language. Tokens
@@ -100,6 +74,41 @@ compressible, thus requiring more tokens to encode.
 #### Further Reading
 * [What are Tokens?](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens)
   on Microsoft Semantic Kernel.
+
+### ⇨ Transformer Architecture
+
+Transformer is a revolutionary way to construct LLMs, using the multi-head self-attention
+mechanism introduced in "Attention Is All You Need" whitepaper (Google, 2017).
+The attention mechanism allows modeling of dependencies between tokens without any
+degradation of informatnion caused by distances between those tokens in the input
+or output sequences.
+
+Transformer has the ability to generate coherent human language text sequences that
+match provided input text sequence (both syntactically and semantically).
+This generation process is referred to as inference.
+The model is trained on a task of prediction (probability) of a single token based
+on the input token sequence.
+During the inference, the model is invoked iteratively in an auto-regressive manner,
+consuming the previously generated tokens as additional input when generating the next.
+This process is continued until a stop condition occurs which, in a default case, is
+a special token indicating the end of output sequence.
+
+This new architecture allowed for increased parallelisation and shorter training times
+when compared to the older models and has led to the development of pretrained systems,
+such as the original Generative Pre-Trained Transformer (GPT) by OpenAI and Bidirectional
+Encoder Representations from Transformers (BERT) by Google, both in 2018.
+
+In 2023, transformer is still the state-of-the-art architecture for large language models
+that enables rapid advancement of the field.
+
+#### Further Reading
+* [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
+  whitepaper describing the transformer architecture.
+* [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+  on Wikipedia.
+* [Timeline History of Large Language Models](https://voicebot.ai/large-language-models-history-timeline/) on voicebot.ai.
+* [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
+* [BERT (language model)](https://en.wikipedia.org/wiki/BERT_(language_model)) on Wikipedia.
 
 ### ⇨ Prompt Engineering
 
