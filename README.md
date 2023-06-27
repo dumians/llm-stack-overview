@@ -41,14 +41,28 @@ See also:
 * [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
   whitepaper describing the transformer architecture.
 
-### ⇨ LLM Token
+### ⇨ Tokenization
 
-Token is a basic units of text/code for LLM AI models to process or generate language
-(basic I/O data type). Tokenization is the process of splitting the input and output
-texts into smaller units that can be processed by the LLM AI models. Tokens can be words,
-characters, subwords, or symbols, depending on the type and the size of the model. The
-number of tokens each model uses varies among different LLMs and is referred to as
-vocabulary size.
+A token is a basic unit of text/code for an LLM to process or generate language. Tokens can
+be words, characters, subwords, or symbols, depending on the type and the size of the model.
+The number of tokens each model uses varies among different LLMs and is referred to as
+vocabulary size. Tokens are used on both input and output of LLM neural networks.
+
+LLMs, like all neural networks, are mathematical functions whose inputs and outputs are
+lists of numbers. For this reason, each LLM input prompt is split into a list of smaller
+units (tokens) and then mapped to number representations that can be processed by the LLM.
+This process is refered to as tokenization. The reverse of this process must be applied
+before sending the LLM response to the user.
+
+A tokenizer is a software component (separate from the neural network) that converts
+text to a list of integers. The mapping between text token and its number representation
+is chosen before the learning process and frozen forever.
+A secondary function of tokenizers is text compression. Common words or even phrases like
+"you are" or "where is" can be encoded into one token. This significantly saves compute.
+
+The OpenAI GPT series uses a tokenizer where 1 token maps to around 4 characters, or around
+0.75 words, in common English text. Uncommon English text is less predictable, thus less
+compressible, thus requiring more tokens to encode.
 
 See also:
 * [What are Tokens?](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens)
