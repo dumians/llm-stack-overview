@@ -49,19 +49,6 @@ In 2023, LLMs were able to:
  an article about GPT-4 turing test by Marco Murgia.
 * [The exams Chat-GPT has passed so far (2023)](https://www.businessinsider.com/list-here-are-the-exams-chatgpt-has-passed-so-far-2023-1?IR=T) by Business Insider.
 
-### ⇨ Transformer Architecture
-
-Transformer is a way to construct deep learning models, using the revolutionary
-self-attention mechanism. The model processes all tokens while simultaneously calculating
-attention weights between them. This enables the LLM to have access to all previous tokens
-when generating langauge.
-
-#### Further Reading
-* [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
-  on Wikipedia.
-* [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
-  whitepaper describing the transformer architecture.
-
 ### ⇨ Tokenization
 
 A token is a basic unit of text/code for used by LLM to process or generate language. Tokens
@@ -88,6 +75,20 @@ compressible, thus requiring more tokens to encode.
 #### Further Reading
 * [What are Tokens?](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/tokens)
   on Microsoft Semantic Kernel.
+
+### ⇨ Transformer Architecture
+
+Transformer is a way to construct deep learning models, using the revolutionary
+self-attention mechanism. The model processes all tokens while simultaneously calculating
+attention weights between them. This enables the LLM to have access to all previous tokens
+when generating langauge.
+
+#### Further Reading
+* [Attention is What You Need](https://arxiv.org/pdf/1706.03762.pdf) - Original
+  whitepaper describing the transformer architecture.
+* [Transformer Architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+  on Wikipedia.
+* [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
 
 ### ⇨ Prompt Engineering
 
