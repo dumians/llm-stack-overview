@@ -118,6 +118,7 @@ smaller models are referred to as emergent abilities.
 These abilities are not programmed-in or designed. They are being discovered during LLMs
 usage or testing, in some cases only after the LLM has been made available to the general
 public.
+
 As new, bigger versions of LLMs are released, those abilities increase from near-zero
 performance to sometimes state-of-the-art performance which is completely different from
 a gradual increase in performance observed in humans and animals.
