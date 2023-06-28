@@ -123,7 +123,7 @@ As new, bigger versions of LLMs are released, some abilities increase from near-
 performance to sometimes state-of-the-art performance.
 The sharpness of the change in performance and its unpredictability is completely different
 from what is observed in the biological world and is what makes emergent abilities an
-interesting phonemena and a subject of substantial study.
+interesting phonemenon and a subject of substantial study.
 
 Examples of abilities that emerged so far in LLMs:
 * Correct elementary-level arithmetics,
@@ -153,7 +153,7 @@ smooth scaling law.
   that lists and analyses many emergent abilities (Google, Aug '22).
 * [Are Emergent Abilities of Large Language Models a
   Mirage?](https://arxiv.org/pdf/2304.15004.pdf) - Whitepaper challenging the emergence
-  phenomena by providing more metrics and better statistics.
+  phenomenon by providing more metrics and better statistics.
 
 ### ⇨ LLM Training
 
