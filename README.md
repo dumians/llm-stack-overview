@@ -100,7 +100,7 @@ when compared to the older models and has led to the development of pretrained s
 such as the original Generative Pre-Trained Transformer (GPT) by OpenAI and Bidirectional
 Encoder Representations from Transformers (BERT) by Google, both in 2018.
 
-In 2023, transformer is still the state-of-the-art architecture for large language models
+In 2023, transformer is still the state-of-the-art architecture for LLMs
 that enables rapid advancement of the field.
 
 #### Further Reading
