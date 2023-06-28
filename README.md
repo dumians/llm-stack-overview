@@ -149,8 +149,8 @@ smooth scaling law.
   by Ryan O'Connor at AssemblyAI.
 * [137 emergent abilities of large language models](https://www.jasonwei.net/blog/emergence)
   by Jason Wei.
-* [Emergent Abilities of Large Language Models](https://openreview.net/pdf?id=yzkSU5zdwD) - Whitepaper
-  that lists and analyses many emergent abilities (Google, Aug '22).
+* [Emergent Abilities of Large Language Models](https://openreview.net/pdf?id=yzkSU5zdwD) -
+  Analysis of many emergent abilities (Google, Aug '22).
 * [Are Emergent Abilities of Large Language Models a
   Mirage?](https://arxiv.org/pdf/2304.15004.pdf) - Whitepaper challenging the emergence
   phenomenon by providing more metrics and better statistics.
