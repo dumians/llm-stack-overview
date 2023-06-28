@@ -83,8 +83,8 @@ The attention mechanism allows for modeling of dependencies between tokens witho
 degradation of informatnion caused by distances between those tokens in long input
 or output sequences.
 In consequence, the output of LLMs which are based on transformers does not only contain
-coherent human language but also suggest processeses that resemble deep reasoning or
-cognition.
+perfectly coherent human language but also suggest processeses that resemble deep reasoning
+or cognition.
 
 Transformer has the ability to generate coherent human language text sequences that
 match provided input text sequence (both syntactically and semantically).
