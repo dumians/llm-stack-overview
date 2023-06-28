@@ -119,9 +119,11 @@ These abilities are not programmed-in or designed. They are being discovered dur
 usage or testing, in some cases only after the LLM has been made available to the general
 public.
 
-As new, bigger versions of LLMs are released, those abilities increase from near-zero
-performance to sometimes state-of-the-art performance which is completely different from
-a gradual increase in performance observed in humans and animals.
+As new, bigger versions of LLMs are released, some abilities increase from near-zero
+performance to sometimes state-of-the-art performance.
+The sharpness of the change in performance and its unpredictability is completely different
+from what is observed in the biological world and is what makes emergent abilities an
+interesting phonemena and a subject of substantial study.
 
 Examples of abilities that emerged so far in LLMs:
 * Correct elementary-level arithmetics,
