@@ -130,7 +130,7 @@ Examples of abilities that emerged so far in LLMs:
 * Logical fallacy detection,
 * Multi-step reasoning,
 * Ability to perform tasks that were not included in their training examples
-  (zero-shot and few-shot learning),
+  ("zero-shot" and "few-shot" learning),
 * Rich semantic understanding of International Phonetic Alphabet,
 * Classification of geometric shapes coded in SVG images.
 
@@ -146,9 +146,10 @@ argue that they are actually predictably acquired according to a smooth scaling 
 * [137 emergent abilities of large language models](https://www.jasonwei.net/blog/emergence)
   by Jason Wei.
 * [Emergent Abilities of Large Language Models](https://openreview.net/pdf?id=yzkSU5zdwD) - Whitepaper
-  that lists and analyses many emergent abilities discovered so far (Google, Aug '22).
+  that lists and analyses many emergent abilities (Google, Aug '22).
 * [Are Emergent Abilities of Large Language Models a
-  Mirage?](https://arxiv.org/pdf/2304.15004.pdf) - Whitepaper challenging th emergence phenomena.
+  Mirage?](https://arxiv.org/pdf/2304.15004.pdf) - Whitepaper challenging the emergence
+  phenomena by providing more metrics and better statistics.
 
 ### ⇨ LLM Training
 
