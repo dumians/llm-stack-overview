@@ -80,8 +80,11 @@ compressible, thus requiring more tokens to encode.
 Transformer is a revolutionary way to construct LLMs, using the multi-head self-attention
 mechanism introduced in "Attention Is All You Need" whitepaper (Google, 2017).
 The attention mechanism allows for modeling of dependencies between tokens without any
-degradation of informatnion caused by distances between those tokens in the input
+degradation of informatnion caused by distances between those tokens in long input
 or output sequences.
+Output of LLMs which are based on transformers does not only contain coherent human language
+but also suggest processeses that resemble deep reasoning or cognition.
+
 
 Transformer has the ability to generate coherent human language text sequences that
 match provided input text sequence (both syntactically and semantically).
