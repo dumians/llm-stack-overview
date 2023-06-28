@@ -137,8 +137,9 @@ Examples of abilities that emerged so far in LLMs:
 * Rich semantic understanding of International Phonetic Alphabet,
 * Classification of geometric shapes coded in SVG images.
 
-The popular opinion is that emergent abilities are impossible to predict but some researchers
-argue that they are actually predictably acquired according to a smooth scaling law.
+The popular opinion is that these abilities are in fact emergent (impossible to predict)
+but some researchers argue that they are actually predictably acquired according to a
+smooth scaling law.
 
 #### Further Reading
 * [Emergence (philosophy, systems theory, science, art)](https://en.wikipedia.org/wiki/Emergence)
