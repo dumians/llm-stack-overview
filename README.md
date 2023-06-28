@@ -111,6 +111,14 @@ In 2023, transformer is still the state-of-the-art architecture for LLMs.
 * [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
 * [BERT (language model)](https://en.wikipedia.org/wiki/BERT_(language_model)) on Wikipedia.
 
+### ⇨ LLM Training
+
+TODO
+
+### ⇨ Emergent Abilities
+
+TODO
+
 ### ⇨ Prompt Engineering
 
 Prompt engineering or in-context prompting is a trial-and-error process in which LLM input
@@ -118,7 +126,7 @@ prompt is created and optimised with a goal of influencing the LLMs behaviour wi
 changing weights of the neural network. The effect of prompt engineering methods can vary
 a lot among models, thus requiring heavy experimentation and heuristics.
 
-Prompt engineering use cases: 
+Prompt engineering is being used in 3 different ways:
 * LLM researchers use prompt engineering to improve the capacity of LLMs on a wide range
   of common and complex tasks such as question answering and arithmetic reasoning.
   Many basic prompting techniques (like "zero-shot" and "few-shot" prompting) were
@@ -176,10 +184,6 @@ applications and are considered a solution to the context window problem.
 
 #### Further Reading
 * [Vector Database](https://en.wikipedia.org/wiki/Vector_database) on Wikipedia.
- 
-### ⇨ Emergent Abilities
-
-TODO
 
 ## Prompting Techniques
 
