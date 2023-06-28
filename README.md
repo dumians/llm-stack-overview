@@ -111,11 +111,46 @@ In 2023, transformer is still the state-of-the-art architecture for LLMs.
 * [GPT-3](https://en.wikipedia.org/wiki/GPT-3) on Wikipedia.
 * [BERT (language model)](https://en.wikipedia.org/wiki/BERT_(language_model)) on Wikipedia.
 
-### ⇨ LLM Training
-
-TODO
-
 ### ⇨ Emergent Abilities
+
+Abilities gained by LLMs which were not predicted by extrapolation of the performance of
+smaller models are referred to as emergent abilities.
+These abilities are not programmed-in or designed. They are being discovered during LLMs
+usage or testing, in some cases only after the LLM has been made available to the general
+public.
+As new, bigger versions of LLMs are released, those abilities increase from near-zero
+performance to sometimes state-of-the-art performance which is completely different from
+a gradual increase in performance observed in humans and animals.
+
+Examples of abilities that emerged so far in LLMs:
+* Correct elementary-level arithmetics,
+* Reading comprehension,
+* Cause-effect chain understanding,
+* Truthful question answering and fact checking,
+* Logical fallacy detection,
+* Multi-step reasoning,
+* Ability to perform tasks that were not included in their training examples
+  (zero-shot and few-shot learning),
+* Rich semantic understanding of International Phonetic Alphabet,
+* Classification of geometric shapes coded in SVG images.
+
+The popular opinion is that emergent abilities are impossible to predict but some researchers
+argue that they are actually predictably acquired according to a smooth scaling law.
+
+#### Further Reading
+* [Emergence (philosophy, systems theory, science, art)](https://en.wikipedia.org/wiki/Emergence)
+  on Wikipedia.
+* [Emergent Abilities of Large Language
+  Models](https://www.assemblyai.com/blog/emergent-abilities-of-large-language-models/)
+  by Ryan O'Connor at AssemblyAI.
+* [137 emergent abilities of large language models](https://www.jasonwei.net/blog/emergence)
+  by Jason Wei.
+* [Emergent Abilities of Large Language Models](https://openreview.net/pdf?id=yzkSU5zdwD) - Whitepaper
+  that lists and analyses many emergent abilities discovered so far (Google, Aug '22).
+* [Are Emergent Abilities of Large Language Models a
+  Mirage?](https://arxiv.org/pdf/2304.15004.pdf) - Whitepaper challenging th emergence phenomena.
+
+### ⇨ LLM Training
 
 TODO
 
