@@ -233,7 +233,7 @@ Most users will use pre-trained and already fine-tuned LLMs via commercial APIs,
 while more advanced users will fine-tune a pre-trained open-source model.
 
 #### Further Reading
-* [Large Language Model Training in 2023](https://research.aimultiple.com/large-language-model-training/)1
+* [Large Language Model Training in 2023](https://research.aimultiple.com/large-language-model-training/)
   by Cem Dilmegani on research.aimultiple.com.
 * [Self-Supervised Learning: Benefits & Uses in 2023](https://research.aimultiple.com/self-supervised-learning/)
   by Cem Dilmegani on research.aimultiple.com.
