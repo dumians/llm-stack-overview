@@ -163,12 +163,11 @@ Hallucinations are often expressed by LLMs in a very confident way which lowers 
 detectability.
 
 Why LMMs hallucinate?
-* The training dataset used to train the LLM may include fictional content, as well as
-  content that is subjective like opinions and beliefs. 
+* The training dataset used to train the LLM may include fictional content, as well
+  as content that is subjective like opinions and beliefs. 
 * LLMs are not generally optimized to say “I don’t know” when they don’t have enough
-  information. Therefore, when the LLM has no answer, it generates whatever is the most
-  probable response. But note that “most probable” does not necessarily mean “true”,
-  and when this misalignment happens a hallucination is the end result.
+  information. When the LLM has no answer, it generates whatever is the most probable
+  response. 
 * Prompts which are logically incorrect or messy or even in any way uncommon may
   significantly flatten token probability distribution and lead to hallucination.
 
