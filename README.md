@@ -193,6 +193,8 @@ problem in LLM technology in 2023.
   an article on Hugging Face Blog.
 * [Survey of Hallucination in Natural Language Generation](https://arxiv.org/pdf/2202.03629.pdf) -
   a whitepaper on hallucination.
+* [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/pdf/1909.08593.pdf) -
+  a whitepaper on RLHF.
 
 ### ⇨ LLM Training
 
