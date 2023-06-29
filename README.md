@@ -186,7 +186,7 @@ LLM technology in 2023.
 * [Hallucination (artificial intelligence)](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
   on Wikipedia.
 * [Survey of Hallucination in Natural Language Generation](https://arxiv.org/pdf/2202.03629.pdf) -
-  a whitepaper on halloucination.
+  a whitepaper on hallucination.
 
 ### ⇨ LLM Training
 
