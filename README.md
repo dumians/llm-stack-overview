@@ -157,7 +157,7 @@ smooth scaling law.
 
 ### ⇨ Hallucination
 
-Hallucination (on confabulation or delusion) is a phenomenon when the content generated
+Hallucination (on confabulation or delusion) is a phenomenon in which the content generated
 by a LLM is nonsensical or untrue or unfaithful to the provided source content.
 Hallucinations are often expressed by LLMs in a very confident way which lowers their
 detectability.
