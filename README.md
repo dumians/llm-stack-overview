@@ -197,7 +197,7 @@ problem in LLM technology in 2023.
 
 ### ⇨ LLM Training
 
-Training of a large language model involves following steps:
+Training of a large language model involves the following steps:
 
 1. **Data Gathering**. The first step is to gather the training dataset, which is the
    resource that the LLM will be trained on. The data can come from various sources
