@@ -197,11 +197,49 @@ problem in LLM technology in 2023.
 
 ### ⇨ LLM Training
 
-TODO 
+Training of a large language model involves following steps:
+
+1. **Data Gathering**. The first step is to gather the training dataset, which is the
+   resource that the LLM will be trained on. The data can come from various sources
+   such as books, websites, articles, and open datasets. 
+2. **Data Cleanup**. The data then needs to be cleaned and prepared for training.
+   This may involve removing hate speech, converting the dataset to lowercase and
+   removing stop words. 
+3. **Data Tokenization**. Tokenisation involves choosing token vocabulary, coding the
+   tokenizer and converting all training data from text into arrays of integers.
+4. **Model Selection and Configuration**. The architecture of the model needs to be
+   specified and hyper-parameters (like the number of network layers) configured.
+   Decisions made in this step determine number of parameters that the model will have. 
+5. **Model Training**. The model is trained on the pre-processed data using a technique
+   called self-supervised learning in which the model trains itself by leveraging one
+   part of the data to predict the other part and generate labels accurately. In effect,
+   this learning method converts an unsupervised learning problem into a supervised one.
+   During the training weights in the model's parameters are adjusted based on the
+   difference between its prediction and the actual next word. This process is repeated
+   millions of times until the model reaches a satisfactory level of performance.
+   Since the training phase requires an immense computing power it is typically
+   parallelised into hundred or even thousands of processes.
+6. **Model Evaluation**. After training, the model is evaluated on a test dataset that
+   has not been used to train the model. This provides a measure of performance.
+7. **Model Fine-Tuning**. Based on the evaluation results, the model may require some
+   fine-tuning by adjusting its hyperparameters, changing the architecture, or training
+   on additional data to improve its performance.
+
+Training LLM from scratch is costly.
+Lambdalabs estimated a hypothetical cost of around $4.6 million US dollars to train GPT-3.
+For this reason, LLMs are trained by very few entities that have access to this type of
+resources and are engaged in active research of the field. 
+Most users will use pre-trained and already fine-tuned LLMs via commercial APIs,
+while more advanced users will fine-tune a pre-trained open-source model.
 
 #### Further Reading
 * [Large Language Model Training in 2023](https://research.aimultiple.com/large-language-model-training/)1
   by Cem Dilmegani on research.aimultiple.com.
+* [Self-Supervised Learning: Benefits & Uses in 2023](https://research.aimultiple.com/self-supervised-learning/)
+  by Cem Dilmegani on research.aimultiple.com.
+* [Current Best Practices for Training LLMs from
+  Scratch](https://uploads-ssl.webflow.com/5ac6b7f2924c656f2b13a88c/6435aabdc0a041194b243eef_Current%20Best%20Practices%20for%20Training%20LLMs%20from%20Scratch%20-%20Final.pdf)
+  from Weights & Biases.
 * [Training a causal language model from scratch](https://huggingface.co/learn/nlp-course/chapter7/6)
   from NLP Course on Hugging Face.
 
