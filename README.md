@@ -194,6 +194,22 @@ problem in LLM technology in 2023.
   a whitepaper on hallucination.
 * [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/pdf/1909.08593.pdf) -
   a whitepaper on RLHF.
+  
+### ⇨ Context Window
+
+Context window (or context size) is the number of tokens the model can consider when
+generating responses to prompts. The sum of input prompt and generated response must be
+smaller in size than the context window. Otherwise, the language model breaks down and
+starts generating nonsense. Context window is one the the biggest limitations of LLMs.
+
+#### Further Reading
+* [LMM Engineering Context Windows](https://blendingbits.io/p/llm-engineering-context-windows) -
+  article on blendingbits.io.
+* [The Secret Sauce behind 100K context window in LLMs: all tricks in one
+  place](https://blog.gopenai.com/how-to-speed-up-llms-and-use-100k-context-window-all-tricks-in-one-place-ffd40577b4c)
+  on blog.gopenai.com
+* [Extending Context is Hard…but not Impossible†](https://kaiokendev.github.io/context) -
+  article on kaiokendev.github.io.
 
 ### ⇨ LLM Training
 
@@ -280,22 +296,6 @@ It allows the hacker to get the model to say anything that they want.
   by Simon Willison.
 * [learnprompting.org/docs/prompt_hacking/intro](https://learnprompting.org/docs/prompt_hacking/intro) -
   More on prompt hacking.
-
-### ⇨ Context Window
-
-Context window (or context size) is the number of tokens the model can consider when
-generating responses to prompts. The sum of input prompt and generated response must be
-smaller in size than the context window. Otherwise, the language model breaks down and
-starts generating nonsense. Context window is one the the biggest limitations of LLMs.
-
-#### Further Reading
-* [LMM Engineering Context Windows](https://blendingbits.io/p/llm-engineering-context-windows) -
-  article on blendingbits.io.
-* [The Secret Sauce behind 100K context window in LLMs: all tricks in one
-  place](https://blog.gopenai.com/how-to-speed-up-llms-and-use-100k-context-window-all-tricks-in-one-place-ffd40577b4c)
-  on blog.gopenai.com
-* [Extending Context is Hard…but not Impossible†](https://kaiokendev.github.io/context) -
-  article on kaiokendev.github.io.
 
 ### ⇨ Vector Database
 
