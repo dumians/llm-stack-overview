@@ -184,7 +184,6 @@ models, the phenomenon is considered to be a major (and still not completely und
 problem in LLM technology in 2023.
 
 #### Further Reading
-
 * [Hallucination (artificial intelligence)](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
   on Wikipedia.
 * [Reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)
@@ -199,6 +198,12 @@ problem in LLM technology in 2023.
 ### ⇨ LLM Training
 
 TODO 
+
+#### Further Reading
+* [Large Language Model Training in 2023](https://research.aimultiple.com/large-language-model-training/)1
+  by Cem Dilmegani on research.aimultiple.com.
+* [Training a causal language model from scratch](https://huggingface.co/learn/nlp-course/chapter7/6)
+  from NLP Course on Hugging Face.
 
 ### ⇨ Prompt Engineering
 
