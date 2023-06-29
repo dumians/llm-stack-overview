@@ -1,5 +1,5 @@
 # llm-primer
-> LLM-related definitions and links to learning material
+> Base knowledge needed to effectively use large language models (LLMs)
 
 For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
 
