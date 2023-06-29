@@ -163,8 +163,8 @@ Hallucinations are often expressed by LLMs in a very confident way which lowers 
 detectability.
 
 Why LMMs hallucinate?
-* The training dataset used to train the LLM may include fictional content, as well
-  as content that is subjective like opinions and beliefs. 
+* The LLM training dataset may include fictional content, as well as subjective content
+  like opinions and beliefs. 
 * LLMs are not generally optimized to say “I don’t know” when they don’t have enough
   information. When the LLM has no answer, it generates whatever is the most probable
   response. 
