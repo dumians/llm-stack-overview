@@ -373,8 +373,8 @@ The LLM learns from the examples and construct a response to the
 question or a task specified at the end of the prompt.
 The response is expected to be in exactly the same format as in the examples. 
 
-While few shot prompting can be incredibly effective, it tends to break down
-when more complex logic is required to complete the task.
+Few shot prompting tends to break down when more complex logic is required
+to complete the task.
 LLMs can't reason outside of what is being read/written by them.
 If the examples provided in the prompt contain only tasks and answers and the task
 is not common, LLM will not able to figure out the algorithm for getting the answer.
