@@ -312,6 +312,7 @@ Typically, LLMs can be invoked in embedding mode in which embedding vectors
 for given input text are returned to the user (without generating any output tokens).
 Those embeddings are typically used to index texts in vector databases.
 
+#### Further Reading
 * [What are embeddings?](https://learn.microsoft.com/en-us/semantic-kernel/memories/embeddings)
   on Microsoft Semantic Kernel.
 
@@ -336,66 +337,107 @@ the problem of limited context window.
 
 ## Prompting Techniques
 
-* `Act-As` TODO
-* `Summarization` is a set of prompting techniques that create a shorter version of a document
-  that captures all the important information. Summarization is considered to be a solution
-  to the context window problem.
-   - [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
-   - [Mastering ChatGPT: Effective Summarization with
-     LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
-* `Few-Shot` TODO
-   - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
-* `Zero-Shot` TODO
-   - [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf)
-* `Chain of Thought (CoT)` is a prompting technique used to encourage the model to generate
-  a series of intermediate reasoning steps. A less formal way to induce this behavior is
-  to include “Let’s think step-by-step” in the prompt.
-   - [Chain-of-Thought Prompting Elicits Reasoning in Large Language
-     Models](https://arxiv.org/pdf/2201.11903.pdf)
-   - [SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE
-     MODELS](https://arxiv.org/pdf/2112.00114.pdf)
-* `Action Plan Generation` is a prompting technique that uses a language model to generate
-  actions to take. The results of these actions can then be fed back into the language model
-  to generate a subsequent action.
-   - [WebGPT: Browser-assisted question-answering with human
-     feedback](https://arxiv.org/pdf/2112.09332.pdf)
-   - [Do As I Can, Not As I Say: Grounding Language in Robotic
-     Affordances](https://say-can.github.io/assets/palm_saycan.pdf)
-* `ReAct` is a prompting technique that combines Chain-of-Thought prompting with action plan
-  generation. This induces the model to think about what action to take, then take it.
-   - [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE
-     MODELS](https://arxiv.org/pdf/2210.03629.pdf)
-* `Self-ask` is a prompting method that builds on top of chain-of-thought prompting. In this
-  method, the model explicitly asks itself follow-up questions, which are then answered
-  by an external search engine.
-   - [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE
-     MODELS](https://ofir.io/self-ask.pdf)
-* `Prompt Chaining` is combining multiple LLM calls, with the output of one-step being the
-  input to the next.
-   - [PromptChainer: Chaining Large Language Model Prompts through Visual
-     Programming](https://arxiv.org/pdf/2203.06566.pdf)
-   - [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
-   - [Factored Cognition Primer](https://primer.ought.org/)
-   - [Socratic Models: Composing Zero-Shot Multimodal Reasoning with
-     Language](https://socraticmodels.github.io/)
-* `Memetic Proxy` is encouraging the LLM to respond in a certain way framing the discussion
-  in a context that the model knows of and that will result in that type of response. For
-  example, as a conversation between a student and a teacher.
-   - [Prompt Programming for Large Language Models: Beyond the Few-Shot
-     Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
-* `Self Consistency` is a decoding strategy that samples a diverse set of reasoning paths
-  and then selects the most consistent answer. Is most effective when combined with
-  Chain-of-thought prompting.
-   - [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE
-     MODELS](https://arxiv.org/pdf/2203.11171.pdf)
-* `Inception` is also called `First Person Instruction`. It is encouraging the model to think
-  a certain way by including the start of the model’s response in the prompt.
-   - [Riley Goodside's Example @
-     Twitter](https://twitter.com/goodside/status/1583262455207460865?s=20&t=8Hz7XBnK1OF8siQrxxCIGQ)
-* `MemPrompt` maintains a memory of errors and user feedback, and uses them to prevent
-  repetition of mistakes.
-   - [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
-* TODO: Three of Thought
+### ⇨ Act As
+TODO
+
+### ⇨ Summarization
+Summarization is a set of prompting techniques that create a shorter version of
+a document that captures all the important information.
+Summarization is considered to be a solution to the context window problem.
+
+#### Further Reading
+* [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
+* [Mastering ChatGPT: Effective Summarization with LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
+
+### ⇨ Few-Shot
+TODO
+
+#### Further Reading
+* [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+
+### ⇨ Zero-Shot
+TODO
+
+#### Further Reading
+* [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf)
+
+### ⇨ Chain of Thought
+Chain of Thought (CoT) is a prompting technique used to encourage the model to generate
+a series of intermediate reasoning steps.
+A less formal way to induce this behavior is to include “Let’s think step-by-step”
+in the prompt.
+
+#### Further Reading
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf)
+* [SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS](https://arxiv.org/pdf/2112.00114.pdf)
+
+### ⇨ Action Plan
+Action Plan is a prompting technique that uses a language model to generate
+actions to take.
+The results of these actions can then be fed back into the language model to generate
+a subsequent action.
+
+#### Further Reading
+* [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/pdf/2112.09332.pdf)
+* [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/assets/palm_saycan.pdf)
+
+### ⇨ ReAct
+ReAct is a prompting technique that combines Chain-of-Thought prompting with
+action plan generation.
+This induces the model to think about what action to take, then take it.
+
+#### Further Reading
+* [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
+
+### ⇨ Self-ask
+Self-ask is a prompting method that builds on top of chain-of-thought prompting.
+In this method, the model explicitly asks itself follow-up questions, which are
+then answered by an external search engine.
+
+#### Further Reading
+* [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf)
+
+### ⇨ Prompt Chaining
+Prompt chaining is combining multiple LLM calls, with the output of one-step being
+the input to the next.
+
+* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf)
+* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
+* [Factored Cognition Primer](https://primer.ought.org/)
+* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
+
+### ⇨ Memetic Proxy
+Memetic prox is encouraging the LLM to respond in a certain way framing the discussion
+in a context that the model knows of and that will result in that type of response.
+For example, as a conversation between a student and a teacher.
+
+#### Further Reading
+* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
+
+### ⇨ Self Consistency
+Self consistency is a decoding strategy that samples a diverse set of reasoning paths
+and then selects the most consistent answer.
+Is most effective when combined with Chain-of-thought prompting.
+
+#### Further Reading
+* [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
+
+### ⇨ Inception
+Inception is also called First Person Instruction. It is encouraging the model to think
+a certain way by including the start of the model’s response in the prompt.
+
+#### Further Reading
+* [Riley Goodside's Example @ Twitter](https://twitter.com/goodside/status/1583262455207460865?s=20&t=8Hz7XBnK1OF8siQrxxCIGQ)
+
+### ⇨ MemPrompt
+MemPrompt maintains a memory of errors and user feedback, and uses them to prevent
+repetition of mistakes.
+
+#### Further Reading
+* [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
+
+### ⇨ Three of Thought
+TODO
 
 * [promptingguide.ai](https://www.promptingguide.ai/)
 * [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - article by Lilian Weng.
