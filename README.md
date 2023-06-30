@@ -337,8 +337,34 @@ the problem of limited context window.
 
 ## Prompting Techniques
 
-### ⇨ Act As
-TODO
+### ⇨ Role Play
+LLMs can be given a specific role to play in a conversation which can substantially
+enhance their performance.
+The role-playing prompt shifts the "mindset" of the model and allows it to generate
+output which is consistent with a desired persona.
+
+Role play prompts typically start with "You are a..." or  "Act as a..."
+or "Your job is to...".
+Advanced prompts may contain multiple (or all) of the above as the description
+of the LLM persona get more elaborate.
+
+The technique is typically employed when a task to be done by a LLM is performed
+by a specialist (like a lawyer, data scientist or SEO expert) in the real world.
+
+#### Example
+
+> As an AI and machine learning specialist, help me integrate AI or machine
+> learning into my project. Ask me about my project's goals, the problems I want
+> to solve with AI or machine learning, and any specific techniques or algorithms
+> I'm interested in, and then provide advice on implementation and best practices.
+>
+> ~ from stackdiary.com:
+
+#### Further Reading
+* [Role Based Prompts for ChatGPT (Act as a ...)](https://stackdiary.com/chatgpt/role-based-prompts/) -
+  a list of role-based prompts ready to be used (stackdiary.com).
+* [Role-Play with Large Language Models](https://arxiv.org/pdf/2305.16367.pdf) -
+  Whitepaper (Google DeepMind, 2023).
 
 ### ⇨ Summarization
 Summarization is a set of prompting techniques that create a shorter version of
