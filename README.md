@@ -369,7 +369,7 @@ which gives the model a certain pro-activeness in its pursuit.
 ### ⇨ Few-Shot
 A technique of including one or more examples of already solved tasks in the
 prompt is referred to as few-shot prompting.
-The LLM is expected to learn from the examples and construct a response to the
+The LLM learns from the examples and construct a response to the
 question or a task specified at the end of the prompt.
 The response is expected to be in exactly the same format as in the examples. 
 
