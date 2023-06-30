@@ -328,7 +328,7 @@ A vector database can measure reletedness of different language sequences by com
 directions of their embedding vectors.
 
 The technique of querying data related to a specific text and using it as part of
-LLM prompt is refered to as "semantic memory" and is considered a solution to
+LLM prompt is refered to as "semantic memory" and is considered to be a solution to
 the problem of limited context window.
 
 #### Further Reading
