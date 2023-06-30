@@ -376,7 +376,7 @@ The response is expected to be in exactly the same format as in the examples.
 Few shot prompting tends to break down when more complex logic is required
 to complete the task.
 LLMs can't reason outside of what is being read/written by them.
-If the examples provided in the prompt contain only tasks and answers and the task
+If the examples provided in the prompt contain only questions and answers and the task
 is not common, LLM will not able to figure out the algorithm for getting the answer.
 
 The limitations of Few-Shot technique can be mitigated by combining it with
