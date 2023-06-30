@@ -439,15 +439,6 @@ then answered by an external search engine.
 #### Further Reading
 * [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf)
 
-### ⇨ Prompt Chaining
-Prompt chaining is combining multiple LLM calls, with the output of one-step being
-the input to the next.
-
-* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf)
-* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
-* [Factored Cognition Primer](https://primer.ought.org/)
-* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
-
 ### ⇨ Memetic Proxy
 Memetic prox is encouraging the LLM to respond in a certain way framing the discussion
 in a context that the model knows of and that will result in that type of response.
@@ -479,6 +470,14 @@ repetition of mistakes.
 * [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
 
 ## Prompt Chaining Techniques
+
+Prompt chaining is combining multiple LLM calls, with the output of one-step being
+the input to the next.
+
+* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf)
+* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
+* [Factored Cognition Primer](https://primer.ought.org/)
+* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
 
 ### ⇨ Summarization
 Summarization is a set of prompting techniques that create a shorter version of
