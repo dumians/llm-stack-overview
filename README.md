@@ -371,7 +371,7 @@ A technique of including one or more examples of already solved tasks in the
 prompt is referred to as few-shot prompting.
 The LLM learns from the examples and construct a response to the
 question or a task specified at the end of the prompt.
-The response is expected to be in exactly the same format as in the examples. 
+The output is expected to be in exactly the same format as in the examples. 
 
 Few shot prompting tends to break down when more complex logic is required
 to complete the task.
@@ -380,7 +380,7 @@ If the examples provided in the prompt contain only questions and answers and th
 is not common, LLM will not able to figure out the algorithm for getting the answer.
 
 The limitations of Few-Shot technique can be mitigated by combining it with
-Chain-of-Thoughts technique where description of step-by-step reasoning is added
+Chain-of-Thoughts technique where step-by-step reasoning is added
 to each example contained in the prompt. 
 
 #### Example
