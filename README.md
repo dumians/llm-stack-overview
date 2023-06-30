@@ -338,18 +338,20 @@ the problem of limited context window.
 ## Prompting Techniques
 
 ### ⇨ Role Play
-LLMs can be given a specific role to play in a conversation which can substantially
-enhance their performance.
-The role-playing prompt shifts the "mindset" of the model and allows it to generate
-output which is consistent with a desired persona.
+A prompt that instructs the model to play a specific role in the conversation is
+referred to as role play.
+Role-playing prompts shift the "mindset" of langauge models and allows them
+to generate output which is consistent with a desired persona.
 
 Role play prompts typically start with "You are a..." or  "Act as a..."
 or "Your job is to...".
 Advanced prompts may contain multiple (or all) of the above as the description
-of the LLM persona get more elaborate.
+of the LLM persona gets more elaborate.
 
-The technique is typically employed when a task to be done by a LLM is performed
+Role play technique is typically employed when a task to be done by a LLM is performed
 by a specialist (like a lawyer, data scientist or SEO expert) in the real world.
+It is often combined with specification of a clear goal for the whole conversaion
+which gives the model a certain pro-activeness in its pursuit.
 
 #### Example
 
