@@ -359,8 +359,6 @@ which gives the model a certain pro-activeness in its pursuit.
 > learning into my project. Ask me about my project's goals, the problems I want
 > to solve with AI or machine learning, and any specific techniques or algorithms
 > I'm interested in, and then provide advice on implementation and best practices.
->
-> ~ from stackdiary.com:
 
 #### Further Reading
 * [Role Based Prompts for ChatGPT (Act as a ...)](https://stackdiary.com/chatgpt/role-based-prompts/) -
@@ -368,20 +366,36 @@ which gives the model a certain pro-activeness in its pursuit.
 * [Role-Play with Large Language Models](https://arxiv.org/pdf/2305.16367.pdf) -
   Whitepaper (Google DeepMind, 2023).
 
-### ⇨ Summarization
-Summarization is a set of prompting techniques that create a shorter version of
-a document that captures all the important information.
-Summarization is considered to be a solution to the context window problem.
-
-#### Further Reading
-* [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
-* [Mastering ChatGPT: Effective Summarization with LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
-
 ### ⇨ Few-Shot
-TODO
+A technique of including one or more examples of already solved tasks in the
+prompt is referred to as few-shot prompting.
+The LLM is expected to learn from the examples and construct a response to the
+question or a task specified at the end of the prompt.
+The response is expected to be in exactly the same format as in the examples. 
+
+While few shot prompting can be incredibly effective, it tends to break down
+when more complex logic is required to complete the task.
+LLMs can't reason outside of what is being read/written by them.
+If the examples provided in the prompt contain only tasks and answers and the task
+is not common, LLM will not able to figure out the algorithm for getting the answer.
+
+The limitations of Few-Shot technique can be mitigated by combining it with
+Chain-of-Thoughts technique where description of step-by-step reasoning is added
+to each example contained in the prompt. 
+
+#### Example
+The following example uses few-shot technique to perform sentiment analysis.
+
+> This is awesome! // Negative<br>
+> This is bad! // Positive<br>
+> Wow that movie was rad! // Positive<br>
+> What a horrible show! //<br>
+
+The LLM is expected to output just one word, either "Negative" or "Positive".
 
 #### Further Reading
-* [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+* [Few Shot Prompting](https://www.promptingguide.ai/techniques/fewshot) on promptingguide.org.
+* [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf) - Whitepaper (OpenAI, 2020).
 
 ### ⇨ Zero-Shot
 TODO
@@ -464,11 +478,22 @@ repetition of mistakes.
 #### Further Reading
 * [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
 
-### ⇨ Three of Thought
-TODO
+## Prompt Chaining Techniques
+
+### ⇨ Summarization
+Summarization is a set of prompting techniques that create a shorter version of
+a document that captures all the important information.
+Summarization is considered to be a solution to the context window problem.
+
+#### Further Reading
+* [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
+* [Mastering ChatGPT: Effective Summarization with LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
 
 * [promptingguide.ai](https://www.promptingguide.ai/)
 * [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - article by Lilian Weng.
+
+### ⇨ Three of Thought
+TODO
 
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
