@@ -380,8 +380,9 @@ If the examples contain only questions and answers and the task is not common,
 LLM will not able to figure out the algorithm for getting the answer.
 
 The limitations of Few-Shot technique can be mitigated by combining it with
-Chain-of-Thoughts technique where step-by-step reasoning is added
-to each example contained in the prompt. 
+Chain-of-Thoughts technique.
+If step-by-step reasoning added to each example the model will be able to
+reproduce this reasoning in its output. 
 
 #### Example
 The following example uses few-shot technique to perform sentiment analysis.
