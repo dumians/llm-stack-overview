@@ -362,7 +362,7 @@ which gives the model a certain pro-activeness in its pursuit.
 
 #### Further Reading
 * [Role Based Prompts for ChatGPT (Act as a ...)](https://stackdiary.com/chatgpt/role-based-prompts/) -
-  a list of role-based prompts ready to be used (stackdiary.com).
+  a collection of role playing prompts ready to be used in the chat (stackdiary.com).
 * [Role-Play with Large Language Models](https://arxiv.org/pdf/2305.16367.pdf) -
   Whitepaper (Google DeepMind, 2023).
 
@@ -399,10 +399,23 @@ The LLM is expected to output just one word, either "Negative" or "Positive".
 * [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf) - Whitepaper (OpenAI, 2020).
 
 ### ⇨ Zero-Shot
-TODO
+LLMs with high enough parameter count (or models fine-tuned to follow instructions)
+are able to perform tasks without any example provided in the prompt.
+This technique is referred to as "zero-shot" prompting.
+
+When compared to "few-shot" prompting this technique onsumes less of context window
+space as the prompt doesn't contain any examples.
+On the other hand, "few-shot" is more reliable, especially for more complex tasks.
+
+#### Example
+
+> Classify the text into neutral, negative or positive.<br>
+> Text: I think the vacation is okay.<br>
+> Sentiment:<br>
 
 #### Further Reading
-* [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf)
+* [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf) -
+  Whitepaper (HuggingFace, Big Science, 2022).
 
 ### ⇨ Chain of Thought
 Chain of Thought (CoT) is a prompting technique used to encourage the model to generate
