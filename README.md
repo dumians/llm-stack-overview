@@ -491,7 +491,16 @@ CoT technique has been used in the following forms:
 
 #### Examples
 
-TODO
+One-shot Chain-of-Thought with Inception:
+> Q: I went to the market and bought 10 apples. I gave 2 apples to the neighbor and 2 to the repairman. I then went and bought 5 more apples and ate 1. How many apples did I remain with?<br>
+> A: Let's think step-by-step.<br>
+
+Few-shot Chain-of-Thought:
+> Q: Is the sum of odd numbers equal to sum of even numbers in this group? 4, 8, 9, 15, 12, 2, 1.<br>
+> A: The sum of odd numbers (9, 15, 1) is 25. The sum of even numbers (4, 8, 12, 2) is 26. The sums are not equal. The answer is no.<br>
+> 
+> Q: Is the sum of odd numbers equal to sum of even numbers in this group? 6, 7, 9, 17, 14, 4, 1, 10.<br>
+> A: <br>
 
 #### Further Reading
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf)
