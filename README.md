@@ -503,8 +503,20 @@ Few-shot Chain-of-Thought:
 > A: <br>
 
 #### Further Reading
-* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf)
-* [SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS](https://arxiv.org/pdf/2112.00114.pdf)
+* [SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS](https://arxiv.org/pdf/2112.00114.pdf) -
+  Whitepaper (Google Brain, 2021).
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf) -
+  Whitepaper (Google Brain, 2023).
+
+## Prompt Chaining Techniques
+
+Prompt chaining is combining multiple LLM calls, with the output of one-step being
+the input to the next.
+
+* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf)
+* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
+* [Factored Cognition Primer](https://primer.ought.org/)
+* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
 
 ### ⇨ Action Plan
 Action Plan is a prompting technique that uses a language model to generate
@@ -540,23 +552,6 @@ Is most effective when combined with Chain-of-thought prompting.
 #### Further Reading
 * [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
 
-### ⇨ MemPrompt
-MemPrompt maintains a memory of errors and user feedback, and uses them to prevent
-repetition of mistakes.
-
-#### Further Reading
-* [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
-
-## Prompt Chaining Techniques
-
-Prompt chaining is combining multiple LLM calls, with the output of one-step being
-the input to the next.
-
-* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf)
-* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
-* [Factored Cognition Primer](https://primer.ought.org/)
-* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
-
 ### ⇨ Summarization
 Summarization is a set of prompting techniques that create a shorter version of
 a document that captures all the important information.
@@ -572,6 +567,15 @@ Summarization is considered to be a solution to the context window problem.
 
 ### ⇨ Three of Thought
 TODO
+
+## LLM Agency Techniques
+
+### ⇨ MemPrompt
+MemPrompt maintains a memory of errors and user feedback, and uses them to prevent
+repetition of mistakes.
+
+#### Further Reading
+* [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
 
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
