@@ -1,7 +1,16 @@
 # llm-primer
 > Base knowledge needed to effectively use large language models (LLMs)
 
-For a list of LLM-related software see [SOFTWARE.md](SOFTWARE.md).
+## How to Use It?
+
+First, read through the whole document without clicking on any links.
+
+Then:
+* If your goal is to just understand this new and crazy field, stop here.
+* If your goal is to start using ChatGPT, the time to start using it is now.
+  Consult the document again when constructing specific prompts.
+* If your goal is to start building AI systems, you'll probably need to dive
+  deeper into linked whitepapers and courses.
 
 ## Key Concepts
 
