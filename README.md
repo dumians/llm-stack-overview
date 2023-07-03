@@ -528,8 +528,8 @@ Model Cascades.
 * [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf) -
   Whitepaper (2022).
 * [Factored Cognition Primer](https://primer.ought.org/) - A course on writing LLM programs.
-* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
-  - Whitepaper on multi-modal prompt chains (Google, 2022).
+* [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/) -
+  Whitepaper on multi-modal prompt chains (Google, 2022).
 
 ### ⇨ Action Plan
 Action Plan is a prompting technique that uses a language model to generate
