@@ -510,13 +510,26 @@ Few-shot Chain-of-Thought:
 
 ## Prompt Chaining Techniques
 
-Prompt chaining is combining multiple LLM calls, with the output of one-step being
-the input to the next.
+Prompt chaining is a set of programming techniques that combine multiple LLM calls,
+with parts of output of one step being parts of the input to the next.
+The combination of LLM capabilities and imperative control flow enables accomplishing
+tasks which are cognitively complex and in a way that is perceived to be transparent
+and controllable.
 
-* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf)
-* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf)
-* [Factored Cognition Primer](https://primer.ought.org/)
+The process of breaking down (or factoring) sophisticated learning and reasoning tasks
+into many small and mostly independent tasks is referred to as Factored Cognition.
+Programs which are based on prompt chaining are sometimes referred to as Language
+Model Cascades.
+
+#### Further Reading
+
+* [PromptChainer: Chaining Large Language Model Prompts through Visual Programming](https://arxiv.org/pdf/2203.06566.pdf) -
+  Whitepaper (Google Research, 2022).
+* [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf) -
+  Whitepaper (2022).
+* [Factored Cognition Primer](https://primer.ought.org/) - A course on writing LLM programs.
 * [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](https://socraticmodels.github.io/)
+  - Whitepaper on multi-modal prompt chains (Google, 2022).
 
 ### ⇨ Action Plan
 Action Plan is a prompting technique that uses a language model to generate
