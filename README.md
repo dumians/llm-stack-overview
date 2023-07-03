@@ -339,12 +339,17 @@ the problem of limited context window.
 
 ### ⇨ Role Play
 A prompt that instructs the model to play a specific role in the conversation is
-referred to as role play.
+referred to as role play (also memetic proxy).
 Role-playing prompts shift the "mindset" of langauge models and allows them
 to generate output which is consistent with a desired persona.
 
-Role play prompts typically start with "You are a..." or  "Act as a..."
+Role play prompts to models optimised for chat are written in second person form.
+Typically, setences in those prompts start with "You are a..." or  "Act as a..."
 or "Your job is to...".
+Prompts to models optimised for text completion are written in third person
+and describe all participants of the conversation.
+They typically use sentences like "This is a transcript of a conversation between..."
+and "His job is to...".
 Advanced prompts may contain multiple (or all) of the above as the description
 of the LLM persona gets more elaborate.
 
@@ -353,18 +358,53 @@ by a specialist (like a lawyer, data scientist or SEO expert) in the real world.
 It is often combined with specification of a clear goal for the whole conversaion
 which gives the model a certain pro-activeness in its pursuit.
 
-#### Example
+#### Examples
 
-> As an AI and machine learning specialist, help me integrate AI or machine
+Second person form:
+> Act as an AI and machine learning specialist, help me integrate AI or machine
 > learning into my project. Ask me about my project's goals, the problems I want
 > to solve with AI or machine learning, and any specific techniques or algorithms
 > I'm interested in, and then provide advice on implementation and best practices.
+
+Third person form:
+> This is a transcript of acenversation between an AI and machine learning specialist
+> and an entrepreneur. The job of the specialist is to help the entrepreneur integrate
+> AI or machine learning into their project. The specialist is proactive in asking about
+> project's goals, the problems that needs to be solved with AI or machine learning,
+> and any specific techniques or algorithms the entrepreneur is interested in. After
+> the interview, the specialist provides advice on implementation and best practices.<br>
+>
+> AI Specialist: Hello! How can I help you?<br>
+> Entrepreneur: Hello. I'm seeking advice on how to integrate machine learning into my project.<br>
+> AI Specialist: <br>
 
 #### Further Reading
 * [Role Based Prompts for ChatGPT (Act as a ...)](https://stackdiary.com/chatgpt/role-based-prompts/) -
   a collection of role playing prompts ready to be used in the chat (stackdiary.com).
 * [Role-Play with Large Language Models](https://arxiv.org/pdf/2305.16367.pdf) -
   Whitepaper (Google DeepMind, 2023).
+
+### ⇨ Inception
+Inception is also called First Person Instruction. It is encouraging the model to think
+a certain way by including the start of the model’s response in the prompt.
+This technique works great with models optimised for text completion and might not work
+at all with models optimised for chat or instruction following.
+
+#### Example
+
+Prompt:
+> Q: What is the meaning of life?<br>
+> A: Here's what some of the greatest minds have been thinking about it:<br>
+
+Model's completion:
+> 1. Socrates: "The unexamined life is not worth living."
+> 2. Albert Einstein: “Try not to become a man of success, but rather try to become a man of value.” 
+> 3. Buddha: “The way is not in the sky. The way is in the heart.” 
+> 4. Benjamin Franklin: “Be at war with your vices, at peace with your neighbors, and let every new year find you a better man.”
+> 5. Dalai Lama: “The purpose of our lives is to be happy.”
+
+#### Further Reading
+* [Riley Goodside's Example @ Twitter](https://twitter.com/goodside/status/1583262455207460865?s=20&t=8Hz7XBnK1OF8siQrxxCIGQ)
 
 ### ⇨ Few-Shot
 A technique of including one or more examples of already solved tasks in the
@@ -453,14 +493,6 @@ then answered by an external search engine.
 #### Further Reading
 * [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf)
 
-### ⇨ Memetic Proxy
-Memetic prox is encouraging the LLM to respond in a certain way framing the discussion
-in a context that the model knows of and that will result in that type of response.
-For example, as a conversation between a student and a teacher.
-
-#### Further Reading
-* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
-
 ### ⇨ Self Consistency
 Self consistency is a decoding strategy that samples a diverse set of reasoning paths
 and then selects the most consistent answer.
@@ -468,13 +500,6 @@ Is most effective when combined with Chain-of-thought prompting.
 
 #### Further Reading
 * [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
-
-### ⇨ Inception
-Inception is also called First Person Instruction. It is encouraging the model to think
-a certain way by including the start of the model’s response in the prompt.
-
-#### Further Reading
-* [Riley Goodside's Example @ Twitter](https://twitter.com/goodside/status/1583262455207460865?s=20&t=8Hz7XBnK1OF8siQrxxCIGQ)
 
 ### ⇨ MemPrompt
 MemPrompt maintains a memory of errors and user feedback, and uses them to prevent
@@ -504,6 +529,7 @@ Summarization is considered to be a solution to the context window problem.
 
 * [promptingguide.ai](https://www.promptingguide.ai/)
 * [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - article by Lilian Weng.
+* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
 
 ### ⇨ Three of Thought
 TODO
