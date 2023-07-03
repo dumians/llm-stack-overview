@@ -536,7 +536,7 @@ ReAct is a prompt chaining technique that uses a language model to generate
 a plan of actions to take which will be fed back into the language model one-by-one
 to perform those actions. 
 
-ReAct utilised CHain-of-Though prompting technique.
+ReAct utilised Chain-of-Though prompting technique.
 
 #### Further Reading
 * [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
