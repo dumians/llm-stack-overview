@@ -577,15 +577,6 @@ Summarization is considered to be a solution to the context window problem.
 ### ⇨ Three of Thought
 TODO
 
-## LLM Agency Techniques
-
-### ⇨ MemPrompt
-MemPrompt maintains a memory of errors and user feedback, and uses them to prevent
-repetition of mistakes.
-
-#### Further Reading
-* [MemPrompt: Memory-assisted Prompt Editing with User Feedback](https://memprompt.com/)
-
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
   to writing AI applications.
