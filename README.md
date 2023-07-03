@@ -334,7 +334,7 @@ the problem of limited context window.
 
 #### Further Reading
 * [Vector Database](https://en.wikipedia.org/wiki/Vector_database) on Wikipedia.
-
+  
 ## Prompting Techniques
 
 ### ⇨ Role Play
@@ -527,26 +527,22 @@ Model Cascades.
   Whitepaper (Google Research, 2022).
 * [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf) -
   Whitepaper (2022).
+* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
 * [Factored Cognition Primer](https://primer.ought.org/) - A course on writing LLM programs.
+* [promptingguide.ai](https://www.promptingguide.ai/).
 
-### ⇨ Action Plan
-Action Plan is a prompt chaining technique that uses a language model to generate
+### ⇨ ReAct
+ReAct is a prompt chaining technique that uses a language model to generate
 a plan of actions to take which will be fed back into the language model one-by-one
 to perform those actions. 
 
-#### Further Reading
-TODO
-
-### ⇨ ReAct
-ReAct is a prompting technique that combines Chain-of-Thought prompting with
-action plan generation.
-This induces the model to think about what action to take, then take it.
+ReAct utilised CHain-of-Though prompting technique.
 
 #### Further Reading
 * [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
 
 ### ⇨ Self-ask
-Self-ask is a prompting method that builds on top of chain-of-thought prompting.
+Self-ask is a prompt chaining technique that builds on top of chain-of-thought prompting.
 In this method, the model explicitly asks itself follow-up questions, which are
 then answered by an external search engine.
 
@@ -554,37 +550,24 @@ then answered by an external search engine.
 * [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf)
 
 ### ⇨ Self Consistency
-Self consistency is a decoding strategy that samples a diverse set of reasoning paths
-and then selects the most consistent answer.
+Self consistency is a prompt chaining technique that samples a diverse set of
+reasoning paths and then selects the most consistent answer.
 Is most effective when combined with Chain-of-thought prompting.
 
 #### Further Reading
 * [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
 
 ### ⇨ Summarization
-Summarization is a set of prompting techniques that create a shorter version of
-a document that captures all the important information.
+Summarization is a set of prompt chaining techniques that create a shorter
+version of a document that captures all the important information.
 Summarization is considered to be a solution to the context window problem.
 
 #### Further Reading
 * [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
 * [Mastering ChatGPT: Effective Summarization with LLMs](https://towardsdatascience.com/chatgpt-summarization-llms-chatgpt3-chatgpt4-artificial-intelligence-16cf0e3625ce)
 
-* [promptingguide.ai](https://www.promptingguide.ai/)
-* [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - article by Lilian Weng.
-* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
-
 ### ⇨ Three of Thought
 TODO
 
 ### ⇨ Graph of Thought
 TODO
-
-## Guides
-* [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
-  to writing AI applications.
-
-## Sources
-
-* [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM#open-llm)
-* [Awesome-Langchain](https://github.com/kyrolabs/awesome-langchain)
