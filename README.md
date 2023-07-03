@@ -532,14 +532,12 @@ Model Cascades.
   Whitepaper on multi-modal prompt chains (Google, 2022).
 
 ### ⇨ Action Plan
-Action Plan is a prompting technique that uses a language model to generate
-actions to take.
-The results of these actions can then be fed back into the language model to generate
-a subsequent action.
+Action Plan is a prompt chaining technique that uses a language model to generate
+a plan of actions to take which will be fed back into the language model one-by-one
+to perform those actions. 
 
 #### Further Reading
-* [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/pdf/2112.09332.pdf)
-* [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/assets/palm_saycan.pdf)
+TODO
 
 ### ⇨ ReAct
 ReAct is a prompting technique that combines Chain-of-Thought prompting with
