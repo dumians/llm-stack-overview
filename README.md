@@ -577,6 +577,9 @@ Summarization is considered to be a solution to the context window problem.
 ### ⇨ Three of Thought
 TODO
 
+### ⇨ Graph of Thought
+TODO
+
 ## Guides
 * [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - A comprehensive guide
   to writing AI applications.
