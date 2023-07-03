@@ -360,13 +360,13 @@ which gives the model a certain pro-activeness in its pursuit.
 
 #### Examples
 
-Second person form:
+Second person form (for models optimised for chat):
 > Act as an AI and machine learning specialist, help me integrate AI or machine
 > learning into my project. Ask me about my project's goals, the problems I want
 > to solve with AI or machine learning, and any specific techniques or algorithms
 > I'm interested in, and then provide advice on implementation and best practices.
 
-Third person form:
+Third person form (for models optimised for text completion):
 > This is a transcript of acenversation between an AI and machine learning specialist
 > and an entrepreneur. The job of the specialist is to help the entrepreneur integrate
 > AI or machine learning into their project. The specialist is proactive in asking about
@@ -392,7 +392,6 @@ at all with models optimised for chat or instruction following.
 
 #### Example
 
-Prompt:
 > Q: What is the meaning of life?<br>
 > A: Here's what some of the greatest minds have been thinking about it:<br>
 
@@ -458,10 +457,41 @@ On the other hand, "few-shot" is more reliable, especially for more complex task
   Whitepaper (HuggingFace, Big Science, 2022).
 
 ### ⇨ Chain of Thought
-Chain of Thought (CoT) is a prompting technique used to encourage the model to generate
-a series of intermediate reasoning steps.
-A less formal way to induce this behavior is to include “Let’s think step-by-step”
-in the prompt.
+Self-attention mechanism is a breakthrough technology that enabled creating LLMs
+with emergent abilities that resemble cognition.
+It is a very particular type of cognition though, and one with a significant limitation.
+The attention mechanism operates on tokens which are things that model reads or generates.
+This means that self-attention models are not able to "think" of something without outputting it.
+
+The lack of reasoning outside of LMMs input/output is a fundamental limitation which renders
+even the best models unable to natively perform complex cognitive tasks that humans are good at.
+Attention-based models are not able to understand complex relationships, algorithms or mathematical
+formulas just by looking at example questions and answers.
+
+Chain of Thought (CoT) is a prompting technique that aims to enable more complex reasoning
+capabilities in LLMs.
+The technique encourages the model to generate a series of intermediate reasoning steps which
+works around the complex reasoning limitation by adding more information to the attention
+mechanism.
+
+CoT technique has been used in the following forms:
+1. **Zero-Shot CoT**:
+   In the most basic form of the technique, the user asks the (chat-optimised) model to write
+   down its reasoning.
+   Sentences like "Tell me your thought process." or "Write down each step of your reasoning."
+   should open the model to complex reasoning.
+3. **Zero-Shot CoT with Inception**:
+   When working with text-completion models, CoT may be combined with Inception technique
+   where then answer is started with "Let's think step by step." sentence.
+5. **Few-Shot CoT**:
+   Including multiple demonstrations of tasks, reasonining steps and final solutions
+   before asking the actual question is the most effective variant of the technique
+   that maximises the models ability to solve cognitively complex tasks.
+   This variant of the technique is typically used with models optimised for text completion.
+
+#### Examples
+
+TODO
 
 #### Further Reading
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf)
