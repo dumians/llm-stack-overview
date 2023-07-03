@@ -536,7 +536,6 @@ Model Cascades.
   Whitepaper (Google Research, 2022).
 * [Language Model Cascades](https://arxiv.org/pdf/2207.10342.pdf) -
   Whitepaper (2022).
-* [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/pdf/2102.07350.pdf)
 * [Factored Cognition Primer](https://primer.ought.org/) - A course on writing LLM programs.
 * [promptingguide.ai](https://www.promptingguide.ai/).
 
