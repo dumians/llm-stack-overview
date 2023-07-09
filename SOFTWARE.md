@@ -8,6 +8,7 @@ For a list of concepts and advanced techniques see [README.md](README.md).
    - [LLaMa weights download](https://github.com/shawwn/llama-dl)
    - [llama.cpp](https://github.com/ggerganov/llama.cpp)
    - [llama-node](https://github.com/Atome-FE/llama-node)
+   - [LLaMa-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter)
    - [Vicuna](https:/github.com/lm-sys/FastChat)
 * **GPT (OpenAI)** `commercial` `saas`
    - [OpenAI API](https://platform.openai.com/docs/api-reference)
