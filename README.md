@@ -579,3 +579,8 @@ TODO
 
 ### ⇨ Graph of Thought
 TODO
+
+## Further Reading
+
+* [Practical Guide for LLMs](https://github.com/Mooler0410/LLMsPracticalGuide) -
+  a low-level guide to various LLMs.
