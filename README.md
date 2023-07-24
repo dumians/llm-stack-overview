@@ -564,7 +564,19 @@ is negligible.
 * [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
 
 ### ⇨ Tool Prompting
-TODO
+Tools are functions that LLM agents can use to interact with external resources.
+These tools can be generic utilities (e.g. web search, wiki search,
+current date/time/weather) or other LLM chains/agents.
+
+The LLM is prompted with a list of tools that are available for its usage,
+a description of response syntax, and instructions to stop inference after
+requesting a tool call.
+LMM responses that contain tool calls are parsed, after which tool implementations
+are invoked with the parameters requested by the LLM.
+Responses from the tools are fed back to the LLM in the next prompt.
+
+Tool prompting can be seen as LMM-level variant of Inversion of Control (IoC)
+programming technique.
 
 ### ⇨ ReAct
 ReAct is a prompt chaining technique that combines Chain-of-Thought and Tool Prompting
