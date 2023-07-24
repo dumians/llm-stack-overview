@@ -539,12 +539,36 @@ Model Cascades.
 * [Factored Cognition Primer](https://primer.ought.org/) - A course on writing LLM programs.
 * [promptingguide.ai](https://www.promptingguide.ai/).
 
-### ⇨ ReAct
-ReAct is a prompt chaining technique that uses a language model to generate
-a plan of actions to take which will be fed back into the language model one-by-one
-to perform those actions. 
+### ⇨ Self-Consistency
+Self-Consistency is a prompt chaining technique that aims to improve
+Chain-of-Though technique by generating a diverse set of reasoning paths
+and then selecting the most consistent answer.
 
-ReAct utilised Chain-of-Though prompting technique.
+The technique builds on the following assumptions:
+1. Complex reasoning tasks typically admit multiple reasoning paths that reach
+ a single, correct answer.
+2. The more that deliberate thinking and analysis is required for a problem,
+ the greater the diversity of reasoning paths that can recover the answer.
+
+Self-Consistency employs multiple inferences (minimum 3) of the same prompt
+which contains a question.
+With high probability, not all inferences produce the same final answer.
+The answers are aggregated (typically using unweighted sum) and the
+highest-scoring answer is returned as the most consistent (majority vote).
+
+The downside of Self-Consistency technique is increased cost of compute (at least 3x).
+In a setup where sample inference is parallelised, response time difference
+is negligible.
+
+#### Further Reading
+* [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
+
+### ⇨ Tool Prompting
+TODO
+
+### ⇨ ReAct
+ReAct is a prompt chaining technique that combines Chain-of-Thought and Tool Prompting
+techniques.
 
 #### Further Reading
 * [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
@@ -556,14 +580,6 @@ then answered by an external search engine.
 
 #### Further Reading
 * [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf)
-
-### ⇨ Self Consistency
-Self consistency is a prompt chaining technique that samples a diverse set of
-reasoning paths and then selects the most consistent answer.
-Is most effective when combined with Chain-of-thought prompting.
-
-#### Further Reading
-* [SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS](https://arxiv.org/pdf/2203.11171.pdf)
 
 ### ⇨ Summarization
 Summarization is a set of prompt chaining techniques that create a shorter
