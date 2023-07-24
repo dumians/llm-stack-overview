@@ -517,6 +517,35 @@ Few-shot Chain-of-Thought:
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903.pdf) -
   Whitepaper (Google Brain, 2023).
 
+### ⇨ Self-Ask
+Self-Ask is a Few-Shot prompting technique that builds on top of chain-of-thought prompting.
+In this method, the model explicitly asks itself follow-up questions, and then answers them.
+
+#### Example
+
+> Question: Who lived longer, Theodor Haecker or Harry VaughanWatkins?<br>
+> Are follow up questions needed here: Yes.<br>
+> Follow up: How old was Theodor Haecker when he died?<br>
+> Intermediate answer: Theodor Haecker was 65 years old when he died.<br>
+> Follow up: How old was Harry Vaughan Watkins when he died?<br>
+> Intermediate answer: Harry Vaughan Watkins was 69 years old when he died.<br>
+> So the final answer is: Harry Vaughan Watkins<br>
+> 
+> Question: Who was president of the U.S. when superconductivity was discovered?<br>
+> Are follow up questions needed here:<br>
+
+An example answer (GPT-3) to the above prompt.
+> Yes.<br>
+> Follow up: When was superconductivity discovered?<br>
+> Intermediate answer: Superconductivity was discovered in 1911.<br>
+> Follow up: Who was president of the U.S. in 1911?<br>
+> Intermediate answer: William Howard Taft.<br>
+> So the final answer is: William Howard Taft.<br>
+
+#### Further Reading
+* [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf) -
+Whitepaper (Oct, 2022).
+
 ## Prompt Chaining Techniques
 
 Prompt chaining is a set of programming techniques that combine multiple LLM calls,
@@ -584,14 +613,6 @@ techniques.
 
 #### Further Reading
 * [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
-
-### ⇨ Self-ask
-Self-ask is a prompt chaining technique that builds on top of chain-of-thought prompting.
-In this method, the model explicitly asks itself follow-up questions, which are
-then answered by an external search engine.
-
-#### Further Reading
-* [MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS](https://ofir.io/self-ask.pdf)
 
 ### ⇨ Summarization
 Summarization is a set of prompt chaining techniques that create a shorter
