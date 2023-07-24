@@ -575,7 +575,7 @@ and then selecting the most consistent answer.
 
 The technique builds on the following assumptions:
 1. Complex reasoning tasks typically admit multiple reasoning paths that reach
- a single, correct answer.
+ a single answer.
 2. The more that deliberate thinking and analysis is required for a problem,
  the greater the diversity of reasoning paths that can recover the answer.
 
