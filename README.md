@@ -605,7 +605,7 @@ are invoked with the parameters requested by the LLM.
 Responses from the tools are fed back to the LLM in the next prompt.
 
 Tool prompting can be seen as LMM-level variant of Inversion of Control (IoC)
-programming technique.
+design pattern.
 
 ### ⇨ ReAct
 ReAct is a prompt chaining technique that combines Chain-of-Thought and Tool Prompting
