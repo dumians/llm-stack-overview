@@ -611,6 +611,8 @@ programming technique.
 ReAct is a prompt chaining technique that combines Chain-of-Thought and Tool Prompting
 techniques.
 
+TODO
+
 #### Further Reading
 * [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
 
@@ -618,6 +620,8 @@ techniques.
 Summarization is a set of prompt chaining techniques that create a shorter
 version of a document that captures all the important information.
 Summarization is considered to be a solution to the context window problem.
+
+TODO
 
 #### Further Reading
 * [5 Levels Of Summarization: Novice to Expert](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/5%20Levels%20Of%20Summarization%20-%20Novice%20To%20Expert.ipynb)
