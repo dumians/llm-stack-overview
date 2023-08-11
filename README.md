@@ -59,7 +59,7 @@ In 2023, LLMs were able to:
 
 ### ⇨ Tokenization
 
-A token is a basic unit of text/code for used by LLM to process or generate language. Tokens
+A token is a basic unit of text/code used by LLM to process or generate language. Tokens
 can be words, characters, subwords, or symbols, depending on the type and the size of the model.
 The number of tokens each model uses varies among different LLMs and is referred to as
 vocabulary size. Tokens are used on both input and output of LLM neural networks.
