@@ -637,3 +637,5 @@ TODO
 
 * [Practical Guide for LLMs](https://github.com/Mooler0410/LLMsPracticalGuide) -
   a low-level guide to various LLMs.
+* [Unifying Large Language Models and
+Knowledge Graphs](https://arxiv.org/pdf/2306.08302.pdf) - Whitepaper, 2023.
