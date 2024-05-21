@@ -19,7 +19,7 @@ Then:
 Large Language Model (LLM) is an artificial neural network trained on large quantities of
 unlabeled text using self-supervised learning or semi-supervised learning. LLMs use deep
 neural networks (with multiple layers of perceptrons) that have large number of parameters
-(connections between network layers; hundreds of billions or even trillions3).
+(connections between network layers; hundreds of billions or even trillions).
 
 Even though LLMs are trained on a simple task along the lines of predicting the next word
 in a sentence, large language models with sufficient training and high parameter counts are
@@ -34,7 +34,7 @@ Since 2018 LLMs perform suprisingly well at a wide variety of tasks, including (
 limited to) document generation, question answering, instruction following, brainstorming,
 and chat. Over the years, LLMs have been improved by orders of magnitude.
 
-In 2024, LLMs were able to:
+In 2024, LLMs are able to:
 
 * Pass the Uniform Bar Exam exam (US national and state law) with a score in the 90th percentile,
 * Pass all three parts of the United States medical licensing examination within a comfortable range,
